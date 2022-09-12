@@ -2,7 +2,7 @@ name: 'GitHub Actions Weather Bot'
 on:
   push:
   schedule:
-    - cron: '01 25 * * *'
+    - cron: '28 12 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -18,8 +18,8 @@ jobs:
         with:
           server_address: smtp.gmail.com
           server_port: 465
-          username: acker2880@gmail.com
-          password: BywordjssQ&!qg11
+          username: ${{secrets.MAIL_USERNAME}}
+          password: ${{secrets.MAIL_PASSWORD}}
           subject: Workflow finished
           body: Job completed ${{job.status}}
           to: acker2880@gmail.com
