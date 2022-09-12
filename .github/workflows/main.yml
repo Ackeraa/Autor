@@ -2,7 +2,7 @@ name: 'GitHub Actions Weather Bot'
 on:
   push:
   schedule:
-    - cron: '39 12 * * *'
+    - cron: '41 12 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -21,6 +21,6 @@ jobs:
           username: ${{secrets.MAIL_USERNAME}}
           password: ${{secrets.MAIL_PASSWORD}}
           subject: Workflow finished
-          body: Job completed ${{job.status}}
+          body: file://result.html
           to: 792112796@qq.com
           from: Me
