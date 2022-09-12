@@ -2,7 +2,7 @@ name: 'GitHub Actions Weather Bot'
 on:
   push:
   schedule:
-    - cron: '58 11 * * *'
+    - cron: '01 12 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -18,8 +18,8 @@ jobs:
         with:
           serveraddress: smtp.gmail.com
           serverport: 465
-          username: ${{ secrets.MAILUSERNAME }}
-          password: ${{ secrets.MAILPASSWORD }}
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
           subject: Shanghai Weather Report
           body: file://result.html
           to: 792112796@qq.com
