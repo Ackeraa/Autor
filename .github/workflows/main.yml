@@ -1,11 +1,27 @@
-- name: Send some mail
-  uses: wadeww/send-email-action@master
-  with:
-    server_address: smtp.gmail.com
-    port: 465
-    username: ${{secrets.MAIL_USERNAME}}
-    password: ${{secrets.MAIL_PASSWORD}}
-    subject: Workflow finished
-    body: Job completed ${{job.status}}
-    to: john@denver.com, elton@john.com
-    from: Me
+name: 'GitHub Actions Weather Bot'
+on:
+  push:
+  schedule:
+    - cron: '55 11 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout codes'
+        uses: actions/checkout@v1
+
+      - name: 'Get weather report'
+        run: bash ./weather.sh
+        
+      - name: 'Send mail'
+        uses: dawidd6/action-send-mail@master
+        with:
+          serveraddress: smtp.gmail.com
+          serverport: 465
+          username: ${{ secrets.MAILUSERNAME }}
+          password: ${{ secrets.MAILPASSWORD }}
+          subject: Shanghai Weather Report
+          body: file://result.html
+          to: 792112796@qq.com
+          from: GitHub Actions
+          content_type: text/html
