@@ -1,11 +1,11 @@
-name: Send some mail
-uses: wadeww/send-email-action@master
-with:
-  server_address: smtp.gmail.com
-  port: 465
-  username: ${{secrets.MAIL_USERNAME}}
-  password: ${{secrets.MAIL_PASSWORD}}
-  subject: Workflow finished
-  body: Job completed ${{job.status}}
-  to: 792112796@qq.com
-  from: Me
+- name: Send some mail
+  uses: wadeww/send-email-action@master
+  with:
+    server_address: smtp.gmail.com
+    port: 465
+    username: ${{secrets.MAIL_USERNAME}}
+    password: ${{secrets.MAIL_PASSWORD}}
+    subject: Workflow finished
+    body: Job completed ${{job.status}}
+    to: john@denver.com, elton@john.com
+    from: Me
