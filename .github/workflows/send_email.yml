@@ -1,5 +1,5 @@
 - name: Send mail
- with:
+  with:
     # Specify connection via URL (replaces server_address, server_port, secure,
     # username and password)
     #
