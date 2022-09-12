@@ -2,7 +2,7 @@ name: 'GitHub Actions Weather Bot'
 on:
   push:
   schedule:
-    - cron: '01 17 * * *'
+    - cron: '01 21 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -16,12 +16,11 @@ jobs:
       - name: 'Send mail'
         uses: dawidd6/action-send-mail@master
         with:
-          server_address: smtp.163.com
-          server_port: 465
-          username: ${{ secrets.MAIL_USERNAME }}
-          password: ${{ secrets.MAIL_PASSWORD }}
-          subject: Shanghai Weather Report
-          body: file://result.html
-          to: 792112796@qq.com
-          from: GitHub Actions
-          content_type: text/html
+          server_address: smtp.gmail.com
+          port: 465
+          username: ${{secrets.MAIL_USERNAME}}
+          password: ${{secrets.MAIL_PASSWORD}}
+          subject: Workflow finished
+          body: Job completed ${{job.status}}
+          to: acker2880@gmail.com
+          from: Me
