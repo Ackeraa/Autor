@@ -1,0 +1,1403 @@
+{
+  "url": "https://api.github.com/repos/Ackeraa/todo.nvim/compare/943ba29d3c504f694235ec93d9895a68adf4e552...main",
+  "html_url": "https://github.com/Ackeraa/todo.nvim/compare/943ba29d3c504f694235ec93d9895a68adf4e552...main",
+  "permalink_url": "https://github.com/Ackeraa/todo.nvim/compare/Ackeraa:943ba29...Ackeraa:2f039a5",
+  "diff_url": "https://github.com/Ackeraa/todo.nvim/compare/943ba29d3c504f694235ec93d9895a68adf4e552...main.diff",
+  "patch_url": "https://github.com/Ackeraa/todo.nvim/compare/943ba29d3c504f694235ec93d9895a68adf4e552...main.patch",
+  "base_commit": {
+    "sha": "943ba29d3c504f694235ec93d9895a68adf4e552",
+    "node_id": "C_kwDOHjORzdoAKDk0M2JhMjlkM2M1MDRmNjk0MjM1ZWM5M2Q5ODk1YTY4YWRmNGU1NTI",
+    "commit": {
+      "author": {
+        "name": "Ackeraa",
+        "email": "ggaoshanxun@gmail.com",
+        "date": "2022-06-30T15:44:21Z"
+      },
+      "committer": {
+        "name": "Ackeraa",
+        "email": "ggaoshanxun@gmail.com",
+        "date": "2022-06-30T15:44:21Z"
+      },
+      "message": "improved readme",
+      "tree": {
+        "sha": "33bc7382a47ed82e96b94cfde7b066c5a60aa2a0",
+        "url": "https://api.github.com/repos/Ackeraa/todo.nvim/git/trees/33bc7382a47ed82e96b94cfde7b066c5a60aa2a0"
+      },
+      "url": "https://api.github.com/repos/Ackeraa/todo.nvim/git/commits/943ba29d3c504f694235ec93d9895a68adf4e552",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/943ba29d3c504f694235ec93d9895a68adf4e552",
+    "html_url": "https://github.com/Ackeraa/todo.nvim/commit/943ba29d3c504f694235ec93d9895a68adf4e552",
+    "comments_url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/943ba29d3c504f694235ec93d9895a68adf4e552/comments",
+    "author": {
+      "login": "Ackeraa",
+      "id": 47852787,
+      "node_id": "MDQ6VXNlcjQ3ODUyNzg3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47852787?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Ackeraa",
+      "html_url": "https://github.com/Ackeraa",
+      "followers_url": "https://api.github.com/users/Ackeraa/followers",
+      "following_url": "https://api.github.com/users/Ackeraa/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Ackeraa/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Ackeraa/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Ackeraa/subscriptions",
+      "organizations_url": "https://api.github.com/users/Ackeraa/orgs",
+      "repos_url": "https://api.github.com/users/Ackeraa/repos",
+      "events_url": "https://api.github.com/users/Ackeraa/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Ackeraa/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Ackeraa",
+      "id": 47852787,
+      "node_id": "MDQ6VXNlcjQ3ODUyNzg3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47852787?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Ackeraa",
+      "html_url": "https://github.com/Ackeraa",
+      "followers_url": "https://api.github.com/users/Ackeraa/followers",
+      "following_url": "https://api.github.com/users/Ackeraa/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Ackeraa/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Ackeraa/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Ackeraa/subscriptions",
+      "organizations_url": "https://api.github.com/users/Ackeraa/orgs",
+      "repos_url": "https://api.github.com/users/Ackeraa/repos",
+      "events_url": "https://api.github.com/users/Ackeraa/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Ackeraa/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "bb08564a04dce6cdbab4bd28a4cb381f1f7aa690",
+        "url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/bb08564a04dce6cdbab4bd28a4cb381f1f7aa690",
+        "html_url": "https://github.com/Ackeraa/todo.nvim/commit/bb08564a04dce6cdbab4bd28a4cb381f1f7aa690"
+      }
+    ]
+  },
+  "merge_base_commit": {
+    "sha": "943ba29d3c504f694235ec93d9895a68adf4e552",
+    "node_id": "C_kwDOHjORzdoAKDk0M2JhMjlkM2M1MDRmNjk0MjM1ZWM5M2Q5ODk1YTY4YWRmNGU1NTI",
+    "commit": {
+      "author": {
+        "name": "Ackeraa",
+        "email": "ggaoshanxun@gmail.com",
+        "date": "2022-06-30T15:44:21Z"
+      },
+      "committer": {
+        "name": "Ackeraa",
+        "email": "ggaoshanxun@gmail.com",
+        "date": "2022-06-30T15:44:21Z"
+      },
+      "message": "improved readme",
+      "tree": {
+        "sha": "33bc7382a47ed82e96b94cfde7b066c5a60aa2a0",
+        "url": "https://api.github.com/repos/Ackeraa/todo.nvim/git/trees/33bc7382a47ed82e96b94cfde7b066c5a60aa2a0"
+      },
+      "url": "https://api.github.com/repos/Ackeraa/todo.nvim/git/commits/943ba29d3c504f694235ec93d9895a68adf4e552",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/943ba29d3c504f694235ec93d9895a68adf4e552",
+    "html_url": "https://github.com/Ackeraa/todo.nvim/commit/943ba29d3c504f694235ec93d9895a68adf4e552",
+    "comments_url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/943ba29d3c504f694235ec93d9895a68adf4e552/comments",
+    "author": {
+      "login": "Ackeraa",
+      "id": 47852787,
+      "node_id": "MDQ6VXNlcjQ3ODUyNzg3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47852787?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Ackeraa",
+      "html_url": "https://github.com/Ackeraa",
+      "followers_url": "https://api.github.com/users/Ackeraa/followers",
+      "following_url": "https://api.github.com/users/Ackeraa/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Ackeraa/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Ackeraa/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Ackeraa/subscriptions",
+      "organizations_url": "https://api.github.com/users/Ackeraa/orgs",
+      "repos_url": "https://api.github.com/users/Ackeraa/repos",
+      "events_url": "https://api.github.com/users/Ackeraa/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Ackeraa/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Ackeraa",
+      "id": 47852787,
+      "node_id": "MDQ6VXNlcjQ3ODUyNzg3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47852787?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Ackeraa",
+      "html_url": "https://github.com/Ackeraa",
+      "followers_url": "https://api.github.com/users/Ackeraa/followers",
+      "following_url": "https://api.github.com/users/Ackeraa/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Ackeraa/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Ackeraa/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Ackeraa/subscriptions",
+      "organizations_url": "https://api.github.com/users/Ackeraa/orgs",
+      "repos_url": "https://api.github.com/users/Ackeraa/repos",
+      "events_url": "https://api.github.com/users/Ackeraa/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Ackeraa/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "bb08564a04dce6cdbab4bd28a4cb381f1f7aa690",
+        "url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/bb08564a04dce6cdbab4bd28a4cb381f1f7aa690",
+        "html_url": "https://github.com/Ackeraa/todo.nvim/commit/bb08564a04dce6cdbab4bd28a4cb381f1f7aa690"
+      }
+    ]
+  },
+  "status": "ahead",
+  "ahead_by": 13,
+  "behind_by": 0,
+  "total_commits": 13,
+  "commits": [
+    {
+      "sha": "f3cb94c82498e9a3e0e8c43884babe0e3240540f",
+      "node_id": "C_kwDOHjORzdoAKGYzY2I5NGM4MjQ5OGU5YTNlMGU4YzQzODg0YmFiZTBlMzI0MDU0MGY",
+      "commit": {
+        "author": {
+          "name": "Ackeraa",
+          "email": "47852787+Ackeraa@users.noreply.github.com",
+          "date": "2022-06-30T15:51:29Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2022-06-30T15:51:29Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "056b9fcb1267ffef8262b9bd4f0bae8d3006b987",
+          "url": "https://api.github.com/repos/Ackeraa/todo.nvim/git/trees/056b9fcb1267ffef8262b9bd4f0bae8d3006b987"
+        },
+        "url": "https://api.github.com/repos/Ackeraa/todo.nvim/git/commits/f3cb94c82498e9a3e0e8c43884babe0e3240540f",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJivcaBCRBK7hj4Ov3rIwAA7oIIAGULiD/g3yjUeGV+GRr1YwVs\nPIwzI647osbSNqKMgtsp/JVa+viv98IuitTfo/eFcvg1mvBVWnQ07+HahEKZRTOo\ni3wyjK3LUpPCTFWUVCTneXJNloCfGUEoha5K+XKBDN8r++FDNaFUrLZsxWSNTTdp\nARThMiODeY50610QopCOIma4SRKS/9BulwoY+mSBvAMo4vl9EONSd2nTCh4al0am\ncTRSprXphkj1x+jMO8wYomZT0afp44xQXqAkher7Uza57XWeKc5vvLxoldpzTkR7\nDE2+liyndjgtCFpEKJLemfPwchckN6rIex5NYUIb9cLmcyL/e4PsI8r4BhmNDvQ=\n=TZSY\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 056b9fcb1267ffef8262b9bd4f0bae8d3006b987\nparent 943ba29d3c504f694235ec93d9895a68adf4e552\nauthor Ackeraa <47852787+Ackeraa@users.noreply.github.com> 1656604289 +0800\ncommitter GitHub <noreply@github.com> 1656604289 +0800\n\nUpdate README.md"
+        }
+      },
+      "url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/f3cb94c82498e9a3e0e8c43884babe0e3240540f",
+      "html_url": "https://github.com/Ackeraa/todo.nvim/commit/f3cb94c82498e9a3e0e8c43884babe0e3240540f",
+      "comments_url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/f3cb94c82498e9a3e0e8c43884babe0e3240540f/comments",
+      "author": {
+        "login": "Ackeraa",
+        "id": 47852787,
+        "node_id": "MDQ6VXNlcjQ3ODUyNzg3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/47852787?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Ackeraa",
+        "html_url": "https://github.com/Ackeraa",
+        "followers_url": "https://api.github.com/users/Ackeraa/followers",
+        "following_url": "https://api.github.com/users/Ackeraa/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Ackeraa/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Ackeraa/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Ackeraa/subscriptions",
+        "organizations_url": "https://api.github.com/users/Ackeraa/orgs",
+        "repos_url": "https://api.github.com/users/Ackeraa/repos",
+        "events_url": "https://api.github.com/users/Ackeraa/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Ackeraa/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "943ba29d3c504f694235ec93d9895a68adf4e552",
+          "url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/943ba29d3c504f694235ec93d9895a68adf4e552",
+          "html_url": "https://github.com/Ackeraa/todo.nvim/commit/943ba29d3c504f694235ec93d9895a68adf4e552"
+        }
+      ]
+    },
+    {
+      "sha": "64d99b0bc67518a68742228ed42f8c8424f2f84b",
+      "node_id": "C_kwDOHjORzdoAKDY0ZDk5YjBiYzY3NTE4YTY4NzQyMjI4ZWQ0MmY4Yzg0MjRmMmY4NGI",
+      "commit": {
+        "author": {
+          "name": "Ackeraa",
+          "email": "47852787+Ackeraa@users.noreply.github.com",
+          "date": "2022-06-30T15:51:54Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2022-06-30T15:51:54Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "acf285be8dc6718280282c3b6de3a22cec8a05b8",
+          "url": "https://api.github.com/repos/Ackeraa/todo.nvim/git/trees/acf285be8dc6718280282c3b6de3a22cec8a05b8"
+        },
+        "url": "https://api.github.com/repos/Ackeraa/todo.nvim/git/commits/64d99b0bc67518a68742228ed42f8c8424f2f84b",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJivcaaCRBK7hj4Ov3rIwAAWNgIAIFLyvnJt1MCC5RoR5ZVWj7p\nvYPaFbQU+2JB3gXW9rxGpgVHfms18MlZQNp3MbjlA8TPSHqa4OvwJy2L7YQn87NW\ni0Bt9pDSk9Ptw84Z0mxzh6relcoDv/VUN/3J4tUQOA5KwtOJB+CeugkX/fPUlEw/\nnYsnH7GryVTBlx15i+c/4xRmnRs2txq9BNkV/8ZbYbMpgRcYgU2yZUmRLlYjXlLr\nIIdSfS3BKX2lTwR5JuQ1trmDcBHUUHwkKhU1StRYr/LrtnPlBtG8jGcxDkznq5LX\naHQEJI05xYH7E1QTEI2F/9aFqaFtOEHKwOIA7gXD5phctiddrRmCf1S877gRqY0=\n=lIuD\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree acf285be8dc6718280282c3b6de3a22cec8a05b8\nparent f3cb94c82498e9a3e0e8c43884babe0e3240540f\nauthor Ackeraa <47852787+Ackeraa@users.noreply.github.com> 1656604314 +0800\ncommitter GitHub <noreply@github.com> 1656604314 +0800\n\nUpdate README.md"
+        }
+      },
+      "url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/64d99b0bc67518a68742228ed42f8c8424f2f84b",
+      "html_url": "https://github.com/Ackeraa/todo.nvim/commit/64d99b0bc67518a68742228ed42f8c8424f2f84b",
+      "comments_url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/64d99b0bc67518a68742228ed42f8c8424f2f84b/comments",
+      "author": {
+        "login": "Ackeraa",
+        "id": 47852787,
+        "node_id": "MDQ6VXNlcjQ3ODUyNzg3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/47852787?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Ackeraa",
+        "html_url": "https://github.com/Ackeraa",
+        "followers_url": "https://api.github.com/users/Ackeraa/followers",
+        "following_url": "https://api.github.com/users/Ackeraa/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Ackeraa/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Ackeraa/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Ackeraa/subscriptions",
+        "organizations_url": "https://api.github.com/users/Ackeraa/orgs",
+        "repos_url": "https://api.github.com/users/Ackeraa/repos",
+        "events_url": "https://api.github.com/users/Ackeraa/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Ackeraa/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f3cb94c82498e9a3e0e8c43884babe0e3240540f",
+          "url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/f3cb94c82498e9a3e0e8c43884babe0e3240540f",
+          "html_url": "https://github.com/Ackeraa/todo.nvim/commit/f3cb94c82498e9a3e0e8c43884babe0e3240540f"
+        }
+      ]
+    },
+    {
+      "sha": "ace9e4288f919462a478ab36a66cade5d51b357a",
+      "node_id": "C_kwDOHjORzdoAKGFjZTllNDI4OGY5MTk0NjJhNDc4YWIzNmE2NmNhZGU1ZDUxYjM1N2E",
+      "commit": {
+        "author": {
+          "name": "Ackeraa",
+          "email": "ggaoshanxun@gmail.com",
+          "date": "2022-06-30T15:58:13Z"
+        },
+        "committer": {
+          "name": "Ackeraa",
+          "email": "ggaoshanxun@gmail.com",
+          "date": "2022-06-30T15:58:13Z"
+        },
+        "message": "improved code structure",
+        "tree": {
+          "sha": "f189bcf110793b921cd0d8677828eed8571d0f3e",
+          "url": "https://api.github.com/repos/Ackeraa/todo.nvim/git/trees/f189bcf110793b921cd0d8677828eed8571d0f3e"
+        },
+        "url": "https://api.github.com/repos/Ackeraa/todo.nvim/git/commits/ace9e4288f919462a478ab36a66cade5d51b357a",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/ace9e4288f919462a478ab36a66cade5d51b357a",
+      "html_url": "https://github.com/Ackeraa/todo.nvim/commit/ace9e4288f919462a478ab36a66cade5d51b357a",
+      "comments_url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/ace9e4288f919462a478ab36a66cade5d51b357a/comments",
+      "author": {
+        "login": "Ackeraa",
+        "id": 47852787,
+        "node_id": "MDQ6VXNlcjQ3ODUyNzg3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/47852787?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Ackeraa",
+        "html_url": "https://github.com/Ackeraa",
+        "followers_url": "https://api.github.com/users/Ackeraa/followers",
+        "following_url": "https://api.github.com/users/Ackeraa/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Ackeraa/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Ackeraa/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Ackeraa/subscriptions",
+        "organizations_url": "https://api.github.com/users/Ackeraa/orgs",
+        "repos_url": "https://api.github.com/users/Ackeraa/repos",
+        "events_url": "https://api.github.com/users/Ackeraa/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Ackeraa/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "Ackeraa",
+        "id": 47852787,
+        "node_id": "MDQ6VXNlcjQ3ODUyNzg3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/47852787?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Ackeraa",
+        "html_url": "https://github.com/Ackeraa",
+        "followers_url": "https://api.github.com/users/Ackeraa/followers",
+        "following_url": "https://api.github.com/users/Ackeraa/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Ackeraa/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Ackeraa/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Ackeraa/subscriptions",
+        "organizations_url": "https://api.github.com/users/Ackeraa/orgs",
+        "repos_url": "https://api.github.com/users/Ackeraa/repos",
+        "events_url": "https://api.github.com/users/Ackeraa/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Ackeraa/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "64d99b0bc67518a68742228ed42f8c8424f2f84b",
+          "url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/64d99b0bc67518a68742228ed42f8c8424f2f84b",
+          "html_url": "https://github.com/Ackeraa/todo.nvim/commit/64d99b0bc67518a68742228ed42f8c8424f2f84b"
+        }
+      ]
+    },
+    {
+      "sha": "c4c368e08c516e40fa890b8d254972b46a149ed7",
+      "node_id": "C_kwDOHjORzdoAKGM0YzM2OGUwOGM1MTZlNDBmYTg5MGI4ZDI1NDk3MmI0NmExNDllZDc",
+      "commit": {
+        "author": {
+          "name": "Ackeraa",
+          "email": "ggaoshanxun@gmail.com",
+          "date": "2022-07-01T02:13:57Z"
+        },
+        "committer": {
+          "name": "Ackeraa",
+          "email": "ggaoshanxun@gmail.com",
+          "date": "2022-07-01T02:13:57Z"
+        },
+        "message": "fixed config bugs",
+        "tree": {
+          "sha": "dc89c45831eba4450cc6e194d0109fcda6b34db6",
+          "url": "https://api.github.com/repos/Ackeraa/todo.nvim/git/trees/dc89c45831eba4450cc6e194d0109fcda6b34db6"
+        },
+        "url": "https://api.github.com/repos/Ackeraa/todo.nvim/git/commits/c4c368e08c516e40fa890b8d254972b46a149ed7",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/c4c368e08c516e40fa890b8d254972b46a149ed7",
+      "html_url": "https://github.com/Ackeraa/todo.nvim/commit/c4c368e08c516e40fa890b8d254972b46a149ed7",
+      "comments_url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/c4c368e08c516e40fa890b8d254972b46a149ed7/comments",
+      "author": {
+        "login": "Ackeraa",
+        "id": 47852787,
+        "node_id": "MDQ6VXNlcjQ3ODUyNzg3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/47852787?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Ackeraa",
+        "html_url": "https://github.com/Ackeraa",
+        "followers_url": "https://api.github.com/users/Ackeraa/followers",
+        "following_url": "https://api.github.com/users/Ackeraa/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Ackeraa/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Ackeraa/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Ackeraa/subscriptions",
+        "organizations_url": "https://api.github.com/users/Ackeraa/orgs",
+        "repos_url": "https://api.github.com/users/Ackeraa/repos",
+        "events_url": "https://api.github.com/users/Ackeraa/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Ackeraa/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "Ackeraa",
+        "id": 47852787,
+        "node_id": "MDQ6VXNlcjQ3ODUyNzg3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/47852787?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Ackeraa",
+        "html_url": "https://github.com/Ackeraa",
+        "followers_url": "https://api.github.com/users/Ackeraa/followers",
+        "following_url": "https://api.github.com/users/Ackeraa/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Ackeraa/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Ackeraa/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Ackeraa/subscriptions",
+        "organizations_url": "https://api.github.com/users/Ackeraa/orgs",
+        "repos_url": "https://api.github.com/users/Ackeraa/repos",
+        "events_url": "https://api.github.com/users/Ackeraa/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Ackeraa/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ace9e4288f919462a478ab36a66cade5d51b357a",
+          "url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/ace9e4288f919462a478ab36a66cade5d51b357a",
+          "html_url": "https://github.com/Ackeraa/todo.nvim/commit/ace9e4288f919462a478ab36a66cade5d51b357a"
+        }
+      ]
+    },
+    {
+      "sha": "2bbcdf25da08dd8f743bd93a96fe085950d95272",
+      "node_id": "C_kwDOHjORzdoAKDJiYmNkZjI1ZGEwOGRkOGY3NDNiZDkzYTk2ZmUwODU5NTBkOTUyNzI",
+      "commit": {
+        "author": {
+          "name": "Ackeraa",
+          "email": "ggaoshanxun@gmail.com",
+          "date": "2022-07-01T02:48:31Z"
+        },
+        "committer": {
+          "name": "Ackeraa",
+          "email": "ggaoshanxun@gmail.com",
+          "date": "2022-07-01T02:48:31Z"
+        },
+        "message": "fixed unittest",
+        "tree": {
+          "sha": "1a9fde0dceb3d20d9fc7e94e03701321e6d84a1a",
+          "url": "https://api.github.com/repos/Ackeraa/todo.nvim/git/trees/1a9fde0dceb3d20d9fc7e94e03701321e6d84a1a"
+        },
+        "url": "https://api.github.com/repos/Ackeraa/todo.nvim/git/commits/2bbcdf25da08dd8f743bd93a96fe085950d95272",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/2bbcdf25da08dd8f743bd93a96fe085950d95272",
+      "html_url": "https://github.com/Ackeraa/todo.nvim/commit/2bbcdf25da08dd8f743bd93a96fe085950d95272",
+      "comments_url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/2bbcdf25da08dd8f743bd93a96fe085950d95272/comments",
+      "author": {
+        "login": "Ackeraa",
+        "id": 47852787,
+        "node_id": "MDQ6VXNlcjQ3ODUyNzg3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/47852787?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Ackeraa",
+        "html_url": "https://github.com/Ackeraa",
+        "followers_url": "https://api.github.com/users/Ackeraa/followers",
+        "following_url": "https://api.github.com/users/Ackeraa/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Ackeraa/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Ackeraa/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Ackeraa/subscriptions",
+        "organizations_url": "https://api.github.com/users/Ackeraa/orgs",
+        "repos_url": "https://api.github.com/users/Ackeraa/repos",
+        "events_url": "https://api.github.com/users/Ackeraa/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Ackeraa/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "Ackeraa",
+        "id": 47852787,
+        "node_id": "MDQ6VXNlcjQ3ODUyNzg3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/47852787?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Ackeraa",
+        "html_url": "https://github.com/Ackeraa",
+        "followers_url": "https://api.github.com/users/Ackeraa/followers",
+        "following_url": "https://api.github.com/users/Ackeraa/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Ackeraa/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Ackeraa/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Ackeraa/subscriptions",
+        "organizations_url": "https://api.github.com/users/Ackeraa/orgs",
+        "repos_url": "https://api.github.com/users/Ackeraa/repos",
+        "events_url": "https://api.github.com/users/Ackeraa/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Ackeraa/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c4c368e08c516e40fa890b8d254972b46a149ed7",
+          "url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/c4c368e08c516e40fa890b8d254972b46a149ed7",
+          "html_url": "https://github.com/Ackeraa/todo.nvim/commit/c4c368e08c516e40fa890b8d254972b46a149ed7"
+        }
+      ]
+    },
+    {
+      "sha": "a96c505b6cf4face7860b73c3d08458bf2b07dd6",
+      "node_id": "C_kwDOHjORzdoAKGE5NmM1MDViNmNmNGZhY2U3ODYwYjczYzNkMDg0NThiZjJiMDdkZDY",
+      "commit": {
+        "author": {
+          "name": "Ackeraa",
+          "email": "ggaoshanxun@gmail.com",
+          "date": "2022-07-01T05:41:10Z"
+        },
+        "committer": {
+          "name": "Ackeraa",
+          "email": "ggaoshanxun@gmail.com",
+          "date": "2022-07-01T05:41:10Z"
+        },
+        "message": "simplified task",
+        "tree": {
+          "sha": "8f3288250646d173a34ff8f65d3d6da16f6fbf0a",
+          "url": "https://api.github.com/repos/Ackeraa/todo.nvim/git/trees/8f3288250646d173a34ff8f65d3d6da16f6fbf0a"
+        },
+        "url": "https://api.github.com/repos/Ackeraa/todo.nvim/git/commits/a96c505b6cf4face7860b73c3d08458bf2b07dd6",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/a96c505b6cf4face7860b73c3d08458bf2b07dd6",
+      "html_url": "https://github.com/Ackeraa/todo.nvim/commit/a96c505b6cf4face7860b73c3d08458bf2b07dd6",
+      "comments_url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/a96c505b6cf4face7860b73c3d08458bf2b07dd6/comments",
+      "author": {
+        "login": "Ackeraa",
+        "id": 47852787,
+        "node_id": "MDQ6VXNlcjQ3ODUyNzg3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/47852787?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Ackeraa",
+        "html_url": "https://github.com/Ackeraa",
+        "followers_url": "https://api.github.com/users/Ackeraa/followers",
+        "following_url": "https://api.github.com/users/Ackeraa/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Ackeraa/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Ackeraa/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Ackeraa/subscriptions",
+        "organizations_url": "https://api.github.com/users/Ackeraa/orgs",
+        "repos_url": "https://api.github.com/users/Ackeraa/repos",
+        "events_url": "https://api.github.com/users/Ackeraa/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Ackeraa/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "Ackeraa",
+        "id": 47852787,
+        "node_id": "MDQ6VXNlcjQ3ODUyNzg3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/47852787?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Ackeraa",
+        "html_url": "https://github.com/Ackeraa",
+        "followers_url": "https://api.github.com/users/Ackeraa/followers",
+        "following_url": "https://api.github.com/users/Ackeraa/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Ackeraa/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Ackeraa/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Ackeraa/subscriptions",
+        "organizations_url": "https://api.github.com/users/Ackeraa/orgs",
+        "repos_url": "https://api.github.com/users/Ackeraa/repos",
+        "events_url": "https://api.github.com/users/Ackeraa/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Ackeraa/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "2bbcdf25da08dd8f743bd93a96fe085950d95272",
+          "url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/2bbcdf25da08dd8f743bd93a96fe085950d95272",
+          "html_url": "https://github.com/Ackeraa/todo.nvim/commit/2bbcdf25da08dd8f743bd93a96fe085950d95272"
+        }
+      ]
+    },
+    {
+      "sha": "9c9e5d59d2f26532b13ad96a5b6c1aa20e298cfa",
+      "node_id": "C_kwDOHjORzdoAKDljOWU1ZDU5ZDJmMjY1MzJiMTNhZDk2YTViNmMxYWEyMGUyOThjZmE",
+      "commit": {
+        "author": {
+          "name": "Ackeraa",
+          "email": "ggaoshanxun@gmail.com",
+          "date": "2022-07-01T11:18:00Z"
+        },
+        "committer": {
+          "name": "Ackeraa",
+          "email": "ggaoshanxun@gmail.com",
+          "date": "2022-07-01T11:18:00Z"
+        },
+        "message": "added reminder extension",
+        "tree": {
+          "sha": "baff66bf387d7a73235405ff07cfeef0d775bd1e",
+          "url": "https://api.github.com/repos/Ackeraa/todo.nvim/git/trees/baff66bf387d7a73235405ff07cfeef0d775bd1e"
+        },
+        "url": "https://api.github.com/repos/Ackeraa/todo.nvim/git/commits/9c9e5d59d2f26532b13ad96a5b6c1aa20e298cfa",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/9c9e5d59d2f26532b13ad96a5b6c1aa20e298cfa",
+      "html_url": "https://github.com/Ackeraa/todo.nvim/commit/9c9e5d59d2f26532b13ad96a5b6c1aa20e298cfa",
+      "comments_url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/9c9e5d59d2f26532b13ad96a5b6c1aa20e298cfa/comments",
+      "author": {
+        "login": "Ackeraa",
+        "id": 47852787,
+        "node_id": "MDQ6VXNlcjQ3ODUyNzg3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/47852787?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Ackeraa",
+        "html_url": "https://github.com/Ackeraa",
+        "followers_url": "https://api.github.com/users/Ackeraa/followers",
+        "following_url": "https://api.github.com/users/Ackeraa/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Ackeraa/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Ackeraa/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Ackeraa/subscriptions",
+        "organizations_url": "https://api.github.com/users/Ackeraa/orgs",
+        "repos_url": "https://api.github.com/users/Ackeraa/repos",
+        "events_url": "https://api.github.com/users/Ackeraa/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Ackeraa/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "Ackeraa",
+        "id": 47852787,
+        "node_id": "MDQ6VXNlcjQ3ODUyNzg3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/47852787?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Ackeraa",
+        "html_url": "https://github.com/Ackeraa",
+        "followers_url": "https://api.github.com/users/Ackeraa/followers",
+        "following_url": "https://api.github.com/users/Ackeraa/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Ackeraa/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Ackeraa/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Ackeraa/subscriptions",
+        "organizations_url": "https://api.github.com/users/Ackeraa/orgs",
+        "repos_url": "https://api.github.com/users/Ackeraa/repos",
+        "events_url": "https://api.github.com/users/Ackeraa/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Ackeraa/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a96c505b6cf4face7860b73c3d08458bf2b07dd6",
+          "url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/a96c505b6cf4face7860b73c3d08458bf2b07dd6",
+          "html_url": "https://github.com/Ackeraa/todo.nvim/commit/a96c505b6cf4face7860b73c3d08458bf2b07dd6"
+        }
+      ]
+    },
+    {
+      "sha": "58901b9f055f8ea74dc48953d3952c67592d0c28",
+      "node_id": "C_kwDOHjORzdoAKDU4OTAxYjlmMDU1ZjhlYTc0ZGM0ODk1M2QzOTUyYzY3NTkyZDBjMjg",
+      "commit": {
+        "author": {
+          "name": "Ackeraa",
+          "email": "ggaoshanxun@gmail.com",
+          "date": "2022-07-01T11:24:07Z"
+        },
+        "committer": {
+          "name": "Ackeraa",
+          "email": "ggaoshanxun@gmail.com",
+          "date": "2022-07-01T11:24:07Z"
+        },
+        "message": "improved readme",
+        "tree": {
+          "sha": "c423aeaf98760b11f0a9ffa9b4528f329ee5261c",
+          "url": "https://api.github.com/repos/Ackeraa/todo.nvim/git/trees/c423aeaf98760b11f0a9ffa9b4528f329ee5261c"
+        },
+        "url": "https://api.github.com/repos/Ackeraa/todo.nvim/git/commits/58901b9f055f8ea74dc48953d3952c67592d0c28",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/58901b9f055f8ea74dc48953d3952c67592d0c28",
+      "html_url": "https://github.com/Ackeraa/todo.nvim/commit/58901b9f055f8ea74dc48953d3952c67592d0c28",
+      "comments_url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/58901b9f055f8ea74dc48953d3952c67592d0c28/comments",
+      "author": {
+        "login": "Ackeraa",
+        "id": 47852787,
+        "node_id": "MDQ6VXNlcjQ3ODUyNzg3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/47852787?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Ackeraa",
+        "html_url": "https://github.com/Ackeraa",
+        "followers_url": "https://api.github.com/users/Ackeraa/followers",
+        "following_url": "https://api.github.com/users/Ackeraa/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Ackeraa/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Ackeraa/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Ackeraa/subscriptions",
+        "organizations_url": "https://api.github.com/users/Ackeraa/orgs",
+        "repos_url": "https://api.github.com/users/Ackeraa/repos",
+        "events_url": "https://api.github.com/users/Ackeraa/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Ackeraa/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "Ackeraa",
+        "id": 47852787,
+        "node_id": "MDQ6VXNlcjQ3ODUyNzg3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/47852787?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Ackeraa",
+        "html_url": "https://github.com/Ackeraa",
+        "followers_url": "https://api.github.com/users/Ackeraa/followers",
+        "following_url": "https://api.github.com/users/Ackeraa/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Ackeraa/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Ackeraa/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Ackeraa/subscriptions",
+        "organizations_url": "https://api.github.com/users/Ackeraa/orgs",
+        "repos_url": "https://api.github.com/users/Ackeraa/repos",
+        "events_url": "https://api.github.com/users/Ackeraa/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Ackeraa/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "9c9e5d59d2f26532b13ad96a5b6c1aa20e298cfa",
+          "url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/9c9e5d59d2f26532b13ad96a5b6c1aa20e298cfa",
+          "html_url": "https://github.com/Ackeraa/todo.nvim/commit/9c9e5d59d2f26532b13ad96a5b6c1aa20e298cfa"
+        }
+      ]
+    },
+    {
+      "sha": "500ed9d1a366322129e7cf25dd42a1457a6dbf62",
+      "node_id": "C_kwDOHjORzdoAKDUwMGVkOWQxYTM2NjMyMjEyOWU3Y2YyNWRkNDJhMTQ1N2E2ZGJmNjI",
+      "commit": {
+        "author": {
+          "name": "Ackeraa",
+          "email": "ggaoshanxun@gmail.com",
+          "date": "2022-07-01T11:30:07Z"
+        },
+        "committer": {
+          "name": "Ackeraa",
+          "email": "ggaoshanxun@gmail.com",
+          "date": "2022-07-01T11:30:07Z"
+        },
+        "message": "improved readme",
+        "tree": {
+          "sha": "bd1c14c193ae8e6105a7d57ccc757f3e72e1c730",
+          "url": "https://api.github.com/repos/Ackeraa/todo.nvim/git/trees/bd1c14c193ae8e6105a7d57ccc757f3e72e1c730"
+        },
+        "url": "https://api.github.com/repos/Ackeraa/todo.nvim/git/commits/500ed9d1a366322129e7cf25dd42a1457a6dbf62",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/500ed9d1a366322129e7cf25dd42a1457a6dbf62",
+      "html_url": "https://github.com/Ackeraa/todo.nvim/commit/500ed9d1a366322129e7cf25dd42a1457a6dbf62",
+      "comments_url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/500ed9d1a366322129e7cf25dd42a1457a6dbf62/comments",
+      "author": {
+        "login": "Ackeraa",
+        "id": 47852787,
+        "node_id": "MDQ6VXNlcjQ3ODUyNzg3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/47852787?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Ackeraa",
+        "html_url": "https://github.com/Ackeraa",
+        "followers_url": "https://api.github.com/users/Ackeraa/followers",
+        "following_url": "https://api.github.com/users/Ackeraa/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Ackeraa/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Ackeraa/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Ackeraa/subscriptions",
+        "organizations_url": "https://api.github.com/users/Ackeraa/orgs",
+        "repos_url": "https://api.github.com/users/Ackeraa/repos",
+        "events_url": "https://api.github.com/users/Ackeraa/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Ackeraa/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "Ackeraa",
+        "id": 47852787,
+        "node_id": "MDQ6VXNlcjQ3ODUyNzg3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/47852787?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Ackeraa",
+        "html_url": "https://github.com/Ackeraa",
+        "followers_url": "https://api.github.com/users/Ackeraa/followers",
+        "following_url": "https://api.github.com/users/Ackeraa/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Ackeraa/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Ackeraa/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Ackeraa/subscriptions",
+        "organizations_url": "https://api.github.com/users/Ackeraa/orgs",
+        "repos_url": "https://api.github.com/users/Ackeraa/repos",
+        "events_url": "https://api.github.com/users/Ackeraa/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Ackeraa/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "58901b9f055f8ea74dc48953d3952c67592d0c28",
+          "url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/58901b9f055f8ea74dc48953d3952c67592d0c28",
+          "html_url": "https://github.com/Ackeraa/todo.nvim/commit/58901b9f055f8ea74dc48953d3952c67592d0c28"
+        }
+      ]
+    },
+    {
+      "sha": "1af7aadeaa810e5f0300740f2efd8d556297a203",
+      "node_id": "C_kwDOHjORzdoAKDFhZjdhYWRlYWE4MTBlNWYwMzAwNzQwZjJlZmQ4ZDU1NjI5N2EyMDM",
+      "commit": {
+        "author": {
+          "name": "Ackeraa",
+          "email": "ggaoshanxun@gmail.com",
+          "date": "2022-07-01T11:33:58Z"
+        },
+        "committer": {
+          "name": "Ackeraa",
+          "email": "ggaoshanxun@gmail.com",
+          "date": "2022-07-01T11:33:58Z"
+        },
+        "message": "improved readme",
+        "tree": {
+          "sha": "b4de94db70c38a9e66c7fe589202040bb92b293a",
+          "url": "https://api.github.com/repos/Ackeraa/todo.nvim/git/trees/b4de94db70c38a9e66c7fe589202040bb92b293a"
+        },
+        "url": "https://api.github.com/repos/Ackeraa/todo.nvim/git/commits/1af7aadeaa810e5f0300740f2efd8d556297a203",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/1af7aadeaa810e5f0300740f2efd8d556297a203",
+      "html_url": "https://github.com/Ackeraa/todo.nvim/commit/1af7aadeaa810e5f0300740f2efd8d556297a203",
+      "comments_url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/1af7aadeaa810e5f0300740f2efd8d556297a203/comments",
+      "author": {
+        "login": "Ackeraa",
+        "id": 47852787,
+        "node_id": "MDQ6VXNlcjQ3ODUyNzg3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/47852787?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Ackeraa",
+        "html_url": "https://github.com/Ackeraa",
+        "followers_url": "https://api.github.com/users/Ackeraa/followers",
+        "following_url": "https://api.github.com/users/Ackeraa/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Ackeraa/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Ackeraa/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Ackeraa/subscriptions",
+        "organizations_url": "https://api.github.com/users/Ackeraa/orgs",
+        "repos_url": "https://api.github.com/users/Ackeraa/repos",
+        "events_url": "https://api.github.com/users/Ackeraa/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Ackeraa/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "Ackeraa",
+        "id": 47852787,
+        "node_id": "MDQ6VXNlcjQ3ODUyNzg3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/47852787?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Ackeraa",
+        "html_url": "https://github.com/Ackeraa",
+        "followers_url": "https://api.github.com/users/Ackeraa/followers",
+        "following_url": "https://api.github.com/users/Ackeraa/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Ackeraa/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Ackeraa/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Ackeraa/subscriptions",
+        "organizations_url": "https://api.github.com/users/Ackeraa/orgs",
+        "repos_url": "https://api.github.com/users/Ackeraa/repos",
+        "events_url": "https://api.github.com/users/Ackeraa/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Ackeraa/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "500ed9d1a366322129e7cf25dd42a1457a6dbf62",
+          "url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/500ed9d1a366322129e7cf25dd42a1457a6dbf62",
+          "html_url": "https://github.com/Ackeraa/todo.nvim/commit/500ed9d1a366322129e7cf25dd42a1457a6dbf62"
+        }
+      ]
+    },
+    {
+      "sha": "36bfe2ed6920bbf587ad351fa43f6539aaf9bace",
+      "node_id": "C_kwDOHjORzdoAKDM2YmZlMmVkNjkyMGJiZjU4N2FkMzUxZmE0M2Y2NTM5YWFmOWJhY2U",
+      "commit": {
+        "author": {
+          "name": "Ackeraa",
+          "email": "ggaoshanxun@gmail.com",
+          "date": "2022-07-01T11:42:16Z"
+        },
+        "committer": {
+          "name": "Ackeraa",
+          "email": "ggaoshanxun@gmail.com",
+          "date": "2022-07-01T11:42:16Z"
+        },
+        "message": "added doc tags",
+        "tree": {
+          "sha": "89464f6576124e4098171874b056dad682020ae0",
+          "url": "https://api.github.com/repos/Ackeraa/todo.nvim/git/trees/89464f6576124e4098171874b056dad682020ae0"
+        },
+        "url": "https://api.github.com/repos/Ackeraa/todo.nvim/git/commits/36bfe2ed6920bbf587ad351fa43f6539aaf9bace",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/36bfe2ed6920bbf587ad351fa43f6539aaf9bace",
+      "html_url": "https://github.com/Ackeraa/todo.nvim/commit/36bfe2ed6920bbf587ad351fa43f6539aaf9bace",
+      "comments_url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/36bfe2ed6920bbf587ad351fa43f6539aaf9bace/comments",
+      "author": {
+        "login": "Ackeraa",
+        "id": 47852787,
+        "node_id": "MDQ6VXNlcjQ3ODUyNzg3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/47852787?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Ackeraa",
+        "html_url": "https://github.com/Ackeraa",
+        "followers_url": "https://api.github.com/users/Ackeraa/followers",
+        "following_url": "https://api.github.com/users/Ackeraa/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Ackeraa/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Ackeraa/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Ackeraa/subscriptions",
+        "organizations_url": "https://api.github.com/users/Ackeraa/orgs",
+        "repos_url": "https://api.github.com/users/Ackeraa/repos",
+        "events_url": "https://api.github.com/users/Ackeraa/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Ackeraa/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "Ackeraa",
+        "id": 47852787,
+        "node_id": "MDQ6VXNlcjQ3ODUyNzg3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/47852787?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Ackeraa",
+        "html_url": "https://github.com/Ackeraa",
+        "followers_url": "https://api.github.com/users/Ackeraa/followers",
+        "following_url": "https://api.github.com/users/Ackeraa/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Ackeraa/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Ackeraa/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Ackeraa/subscriptions",
+        "organizations_url": "https://api.github.com/users/Ackeraa/orgs",
+        "repos_url": "https://api.github.com/users/Ackeraa/repos",
+        "events_url": "https://api.github.com/users/Ackeraa/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Ackeraa/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1af7aadeaa810e5f0300740f2efd8d556297a203",
+          "url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/1af7aadeaa810e5f0300740f2efd8d556297a203",
+          "html_url": "https://github.com/Ackeraa/todo.nvim/commit/1af7aadeaa810e5f0300740f2efd8d556297a203"
+        }
+      ]
+    },
+    {
+      "sha": "92506d9764e3d62f954fd3d66551700e2853e16d",
+      "node_id": "C_kwDOHjORzdoAKDkyNTA2ZDk3NjRlM2Q2MmY5NTRmZDNkNjY1NTE3MDBlMjg1M2UxNmQ",
+      "commit": {
+        "author": {
+          "name": "Ackeraa",
+          "email": "ggaoshanxun@gmail.com",
+          "date": "2022-07-01T15:13:12Z"
+        },
+        "committer": {
+          "name": "Ackeraa",
+          "email": "ggaoshanxun@gmail.com",
+          "date": "2022-07-01T15:13:12Z"
+        },
+        "message": "fixed upload_to_reminder typo",
+        "tree": {
+          "sha": "28250effc12d43d8c52186dc548bfab4820d2c1c",
+          "url": "https://api.github.com/repos/Ackeraa/todo.nvim/git/trees/28250effc12d43d8c52186dc548bfab4820d2c1c"
+        },
+        "url": "https://api.github.com/repos/Ackeraa/todo.nvim/git/commits/92506d9764e3d62f954fd3d66551700e2853e16d",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/92506d9764e3d62f954fd3d66551700e2853e16d",
+      "html_url": "https://github.com/Ackeraa/todo.nvim/commit/92506d9764e3d62f954fd3d66551700e2853e16d",
+      "comments_url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/92506d9764e3d62f954fd3d66551700e2853e16d/comments",
+      "author": {
+        "login": "Ackeraa",
+        "id": 47852787,
+        "node_id": "MDQ6VXNlcjQ3ODUyNzg3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/47852787?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Ackeraa",
+        "html_url": "https://github.com/Ackeraa",
+        "followers_url": "https://api.github.com/users/Ackeraa/followers",
+        "following_url": "https://api.github.com/users/Ackeraa/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Ackeraa/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Ackeraa/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Ackeraa/subscriptions",
+        "organizations_url": "https://api.github.com/users/Ackeraa/orgs",
+        "repos_url": "https://api.github.com/users/Ackeraa/repos",
+        "events_url": "https://api.github.com/users/Ackeraa/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Ackeraa/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "Ackeraa",
+        "id": 47852787,
+        "node_id": "MDQ6VXNlcjQ3ODUyNzg3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/47852787?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Ackeraa",
+        "html_url": "https://github.com/Ackeraa",
+        "followers_url": "https://api.github.com/users/Ackeraa/followers",
+        "following_url": "https://api.github.com/users/Ackeraa/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Ackeraa/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Ackeraa/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Ackeraa/subscriptions",
+        "organizations_url": "https://api.github.com/users/Ackeraa/orgs",
+        "repos_url": "https://api.github.com/users/Ackeraa/repos",
+        "events_url": "https://api.github.com/users/Ackeraa/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Ackeraa/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "36bfe2ed6920bbf587ad351fa43f6539aaf9bace",
+          "url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/36bfe2ed6920bbf587ad351fa43f6539aaf9bace",
+          "html_url": "https://github.com/Ackeraa/todo.nvim/commit/36bfe2ed6920bbf587ad351fa43f6539aaf9bace"
+        }
+      ]
+    },
+    {
+      "sha": "2f039a5d2de273508d80a4dbcf4c9fc860669320",
+      "node_id": "C_kwDOHjORzdoAKDJmMDM5YTVkMmRlMjczNTA4ZDgwYTRkYmNmNGM5ZmM4NjA2NjkzMjA",
+      "commit": {
+        "author": {
+          "name": "Ackeraa",
+          "email": "ggaoshanxun@gmail.com",
+          "date": "2022-07-28T14:52:47Z"
+        },
+        "committer": {
+          "name": "Ackeraa",
+          "email": "ggaoshanxun@gmail.com",
+          "date": "2022-07-28T14:52:47Z"
+        },
+        "message": "fixed osx reminder bug",
+        "tree": {
+          "sha": "ce01791b1a77622e04e20b8abbc21189737919e7",
+          "url": "https://api.github.com/repos/Ackeraa/todo.nvim/git/trees/ce01791b1a77622e04e20b8abbc21189737919e7"
+        },
+        "url": "https://api.github.com/repos/Ackeraa/todo.nvim/git/commits/2f039a5d2de273508d80a4dbcf4c9fc860669320",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/2f039a5d2de273508d80a4dbcf4c9fc860669320",
+      "html_url": "https://github.com/Ackeraa/todo.nvim/commit/2f039a5d2de273508d80a4dbcf4c9fc860669320",
+      "comments_url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/2f039a5d2de273508d80a4dbcf4c9fc860669320/comments",
+      "author": {
+        "login": "Ackeraa",
+        "id": 47852787,
+        "node_id": "MDQ6VXNlcjQ3ODUyNzg3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/47852787?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Ackeraa",
+        "html_url": "https://github.com/Ackeraa",
+        "followers_url": "https://api.github.com/users/Ackeraa/followers",
+        "following_url": "https://api.github.com/users/Ackeraa/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Ackeraa/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Ackeraa/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Ackeraa/subscriptions",
+        "organizations_url": "https://api.github.com/users/Ackeraa/orgs",
+        "repos_url": "https://api.github.com/users/Ackeraa/repos",
+        "events_url": "https://api.github.com/users/Ackeraa/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Ackeraa/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "Ackeraa",
+        "id": 47852787,
+        "node_id": "MDQ6VXNlcjQ3ODUyNzg3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/47852787?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Ackeraa",
+        "html_url": "https://github.com/Ackeraa",
+        "followers_url": "https://api.github.com/users/Ackeraa/followers",
+        "following_url": "https://api.github.com/users/Ackeraa/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Ackeraa/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Ackeraa/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Ackeraa/subscriptions",
+        "organizations_url": "https://api.github.com/users/Ackeraa/orgs",
+        "repos_url": "https://api.github.com/users/Ackeraa/repos",
+        "events_url": "https://api.github.com/users/Ackeraa/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Ackeraa/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "92506d9764e3d62f954fd3d66551700e2853e16d",
+          "url": "https://api.github.com/repos/Ackeraa/todo.nvim/commits/92506d9764e3d62f954fd3d66551700e2853e16d",
+          "html_url": "https://github.com/Ackeraa/todo.nvim/commit/92506d9764e3d62f954fd3d66551700e2853e16d"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "sha": "f6d9f84e42a6d05fb2c197715c1ed3a611c3f390",
+      "filename": ".DS_Store",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/Ackeraa/todo.nvim/blob/943ba29d3c504f694235ec93d9895a68adf4e552/.DS_Store",
+      "raw_url": "https://github.com/Ackeraa/todo.nvim/raw/943ba29d3c504f694235ec93d9895a68adf4e552/.DS_Store",
+      "contents_url": "https://api.github.com/repos/Ackeraa/todo.nvim/contents/.DS_Store?ref=943ba29d3c504f694235ec93d9895a68adf4e552"
+    },
+    {
+      "sha": "2c9cf63d6bdd64a1ff1881b6f3db2f6e8266c08b",
+      "filename": ".gitignore",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "changes": 2,
+      "blob_url": "https://github.com/Ackeraa/todo.nvim/blob/2f039a5d2de273508d80a4dbcf4c9fc860669320/.gitignore",
+      "raw_url": "https://github.com/Ackeraa/todo.nvim/raw/2f039a5d2de273508d80a4dbcf4c9fc860669320/.gitignore",
+      "contents_url": "https://api.github.com/repos/Ackeraa/todo.nvim/contents/.gitignore?ref=2f039a5d2de273508d80a4dbcf4c9fc860669320",
+      "patch": "@@ -1,3 +1,5 @@\n+.DS_Store\n+\n # Compiled Lua sources\n luac.out\n "
+    },
+    {
+      "sha": "45ca77d1827a523affb483d55d07b92b928f69b2",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 26,
+      "deletions": 5,
+      "changes": 31,
+      "blob_url": "https://github.com/Ackeraa/todo.nvim/blob/2f039a5d2de273508d80a4dbcf4c9fc860669320/README.md",
+      "raw_url": "https://github.com/Ackeraa/todo.nvim/raw/2f039a5d2de273508d80a4dbcf4c9fc860669320/README.md",
+      "contents_url": "https://api.github.com/repos/Ackeraa/todo.nvim/contents/README.md?ref=2f039a5d2de273508d80a4dbcf4c9fc860669320",
+      "patch": "@@ -1,21 +1,27 @@\n # todo.nvim\n-This plugin helps you manage your to-do list while working in neovim, purely written in lua.\n+It helps you manage your to-do list while working in neovim.\n+For Mac OS users, you can load your to-do list to Reminder, see [Extension](#extension)\n \n <p align=\"center\">\n-    <img src=\"\"  width=\"40%\" height=\"40%\" />\n+    <img src=\"https://user-images.githubusercontent.com/47852787/176720169-eabd0f50-afab-4ff7-82a6-ea18b0b80af8.gif\" width=\"80%\" height=\"80%\">\n </p>\n \n+## Requirements\n+* Neovim 0.7 or higher.\n+\n ## Installation\n Using packer\n ```lua\n use { 'ackeraa/todo.nvim' }\n ```\n ## Setup\n-This plugin must be explicitly enabled by using `require(\"todo\").setup{}`\n-You must pass the `file_path` to specify the where do you want to save of the to-do list. \n+This plugin must be explicitly enabled by using `require(\"todo\").setup{}`.\n+Pass the `file_path` to specify the where do you want to save of the to-do list. \n ```lua\n require(\"todo\").setup {\n-    file_path = \"path/to/save/todo.txt\"\n+    opts = {\n+        file_path = \"path/to/save/todo.txt\"\n+    },\n }\n ```\n \n@@ -41,6 +47,21 @@ Examples:\n \n See [doc](https://github.com/Ackeraa/todo.nvim/blob/main/doc/todo.txt) for more details.\n \n+## Extension\n+Mac OS users can load the to-do list to Reminder as follows:\n+\n+* Create a list called \"Todo\" in your Reminder.\n+* Set `upload_to_reminder = true`\n+```lua\n+    require(\"todo\").setup {\n+        opts = {\n+            file_path = \"path/to/save/todo.txt\",\n+            upload_to_reminder = true,\n+        },\n+    }\n+```\n+**Hint**: Anything you change in your Reminder will not affect your to-do list file.\n+\n ## TODO\n * Just finished the job, but the implementation is not elegant.\n * Improve the code structure"
+    },
+    {
+      "sha": "70404c421a83028347e6b70a521942edd182ac9a",
+      "filename": "doc/tags",
+      "status": "added",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1,
+      "blob_url": "https://github.com/Ackeraa/todo.nvim/blob/2f039a5d2de273508d80a4dbcf4c9fc860669320/doc%2Ftags",
+      "raw_url": "https://github.com/Ackeraa/todo.nvim/raw/2f039a5d2de273508d80a4dbcf4c9fc860669320/doc%2Ftags",
+      "contents_url": "https://api.github.com/repos/Ackeraa/todo.nvim/contents/doc%2Ftags?ref=2f039a5d2de273508d80a4dbcf4c9fc860669320",
+      "patch": "@@ -0,0 +1 @@\n+todo.nvim\ttodo.txt\t/*todo.nvim*"
+    },
+    {
+      "sha": "4a6cd7dc97eb2343bfd5c243667f562556f56fea",
+      "filename": "doc/todo.txt",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 3,
+      "changes": 23,
+      "blob_url": "https://github.com/Ackeraa/todo.nvim/blob/2f039a5d2de273508d80a4dbcf4c9fc860669320/doc%2Ftodo.txt",
+      "raw_url": "https://github.com/Ackeraa/todo.nvim/raw/2f039a5d2de273508d80a4dbcf4c9fc860669320/doc%2Ftodo.txt",
+      "contents_url": "https://api.github.com/repos/Ackeraa/todo.nvim/contents/doc%2Ftodo.txt?ref=2f039a5d2de273508d80a4dbcf4c9fc860669320",
+      "patch": "@@ -10,6 +10,9 @@ Getting started with todo:\n        to-do list file.\n     2. Run `:Todo` to start.\n \n+For Mac OS users, you can load your to-do list to Reminder, see\n+*todo-extension* for more details.\n+\n                                                            *todo-requirements*\n This plugin works in Neovim 0.7 or higher.\n \n@@ -20,7 +23,9 @@ You must pass the |file_path| to specify the where do you want to save of\n the to-do list. Example: >\n \n         require(\"todo\").setup {\n-            file_path = \"path/to/save/todo.txt\"\n+            opts = {\n+                file_path = \"path/to/save/todo.txt\"\n+            },\n         }\n <\n                                                                   *todo-usage*\n@@ -83,8 +88,20 @@ There are four types of commands can be used in the floating window:\n           - pass either {new-to-do} or {new-priority}, but not both\n \n                                                               *todo-extension*\n+For Mac OS users, you can load your to-do list to Reminder, do as fllows:\n \n-\n-\n+    1. Create a list called \"Todo\" in your Reminder.\n+    2. Setup as fllows:\n+        >\n+        require(\"todo\").setup {\n+            opts = {\n+                file_path = \"path/to/save/todo.txt\",\n+                upload_to_reminder = true,\n+            },\n+        }\n+<\n+Hints: ~\n+    - For now, only supports reminder on Mac\n+    - Anything you change in your Reminder will not affect your to-do list file\n \n  vim:tw=78:ts=8:ft=help:norl:"
+    },
+    {
+      "sha": "a9427178ee12e227f5a7eeb6752c2d66797d02f5",
+      "filename": "lua/tests/adder_spec.lua",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "changes": 3,
+      "blob_url": "https://github.com/Ackeraa/todo.nvim/blob/2f039a5d2de273508d80a4dbcf4c9fc860669320/lua%2Ftests%2Fadder_spec.lua",
+      "raw_url": "https://github.com/Ackeraa/todo.nvim/raw/2f039a5d2de273508d80a4dbcf4c9fc860669320/lua%2Ftests%2Fadder_spec.lua",
+      "contents_url": "https://api.github.com/repos/Ackeraa/todo.nvim/contents/lua%2Ftests%2Fadder_spec.lua?ref=2f039a5d2de273508d80a4dbcf4c9fc860669320",
+      "patch": "@@ -1,6 +1,7 @@\n describe(\"adder\", function()\n \n-    local adder = require(\"todo.adder\"):new()\n+    local opts = require(\"todo.config\").opts\n+    local adder = require(\"todo.adder\"):new(opts)\n     describe(\"parse\", function()\n         it(\"can parse add command\", function()\n             local op, arg1, arg2 = adder:_parse(\"add 1 hello\")"
+    },
+    {
+      "sha": "ea971b03bb378a064fc4a0a7f49c2c1e6f26f367",
+      "filename": "lua/tests/previewer_spec.lua",
+      "status": "modified",
+      "additions": 77,
+      "deletions": 62,
+      "changes": 139,
+      "blob_url": "https://github.com/Ackeraa/todo.nvim/blob/2f039a5d2de273508d80a4dbcf4c9fc860669320/lua%2Ftests%2Fpreviewer_spec.lua",
+      "raw_url": "https://github.com/Ackeraa/todo.nvim/raw/2f039a5d2de273508d80a4dbcf4c9fc860669320/lua%2Ftests%2Fpreviewer_spec.lua",
+      "contents_url": "https://api.github.com/repos/Ackeraa/todo.nvim/contents/lua%2Ftests%2Fpreviewer_spec.lua?ref=2f039a5d2de273508d80a4dbcf4c9fc860669320",
+      "patch": "@@ -1,19 +1,20 @@\n describe(\"previewer\", function()\n-    local previewer = require(\"todo.previewer\"):new()\n+    local opts = require(\"todo.config\").opts\n     local filename = \"lua/tests/todo.txt\"\n-    local config = require(\"todo.config\")\n+    opts.file_path = filename\n+    local previewer = require(\"todo.previewer\"):new(opts)\n     before_each(function()\n         local file = io.open(filename, \"w\")\n         if file then\n             local lines = {\n-                \"1. do something\",\n-                \"2. do something else\",\n-                \"3. do something else else\",\n-                \"4. do something else else else\",\n-                \"5. do something else else else else\",\n-                config.done_caret..\"@2016-01-01 done something\",\n-                config.done_caret..\"@2016-01-01 done something else\",\n-                config.done_caret..\"@2016-01-01 done something else else\",\n+                \"do something\",\n+                \"do something else\",\n+                \"do something else else\",\n+                \"do something else else else\",\n+                \"do something else else else else\",\n+                \"@2016-01-01 done something\",\n+                \"@2016-01-01 done something else\",\n+                \"@2016-01-01 done something else else\",\n             }\n             for _, line in ipairs(lines) do\n                 file:write(line .. \"\\n\")\n@@ -22,100 +23,114 @@ describe(\"previewer\", function()\n         end\n     end)\n \n-    describe(\"parse\", function()\n-        it(\"should parse right\", function()\n-            local line = previewer:_parse(\"1. 123 hello\")\n-            assert.is.not_nil(line)\n-            assert.is.equal(1, line.priority)\n-            assert.is.equal(\"123 hello\", line.task)\n-\n-            line = previewer:_parse(config.done_caret..\" @2016-01-01 123 hello\")\n-            assert.is.not_nil(line)\n-            assert.is.equal(nil, line.priority)\n-            assert.is.equal(\"123 hello\", line.task)\n-            assert.is.equal(\"2016-01-01\", line.date)\n-        end)\n-    end)\n-\n     describe(\"file method\", function()\n         it(\"can load the todo file\", function()\n-            previewer:load_file(filename)\n+            previewer:load_file()\n             assert.is.equal(8, #previewer.lines)\n         end)\n \n         it(\"can write the todo file\", function()\n-            previewer = require(\"todo.previewer\"):new()\n-            previewer:load_file(filename)\n-            previewer:save_file(filename)\n+            previewer = require(\"todo.previewer\"):new(opts)\n+            previewer:load_file()\n+            previewer:save_file()\n             assert.is.equal(8, #previewer.lines)\n         end)\n     end)\n \n     describe(\"preview method\", function()\n         it(\"should add task right\", function()\n-            previewer = require(\"todo.previewer\"):new()\n-            previewer:load_file(filename)\n+            previewer = require(\"todo.previewer\"):new(opts)\n+            previewer:load_file()\n             previewer:preview(\"add\", 1, \"task1\")\n             previewer:preview(\"add\", 3, \"task3\")\n             previewer:preview(\"add\", 5, \"task5\")\n-            assert.is.equal(\"task1\", previewer.lines[1].task)\n-            assert.is.equal(\"task3\", previewer.lines[3].task)\n-            assert.is.equal(\"task5\", previewer.lines[5].task)\n-            assert.is.equal(\"do something else else else else\", previewer.lines[8].task)\n+            assert.is.equal(\"task1\", previewer.lines[1])\n+            assert.is.equal(\"task3\", previewer.lines[3])\n+            assert.is.equal(\"task5\", previewer.lines[5])\n+            assert.is.equal(\"do something else else else else\", previewer.lines[8])\n             assert.is.equal(11, #previewer.lines)\n \n         end)\n \n         it(\"should delete task right\", function()\n-            previewer = require(\"todo.previewer\"):new()\n-            previewer:load_file(filename)\n+            previewer = require(\"todo.previewer\"):new(opts)\n+            previewer:load_file()\n             previewer:preview(\"delete\", 1)\n             previewer:preview(\"delete\", 2)\n             previewer:preview(\"delete\", 3)\n-            assert.is.equal(\"do something else\", previewer.lines[1].task)\n-            assert.is.equal(1, previewer.lines[1].priority)\n-            assert.is.equal(\"do something else else else\", previewer.lines[2].task)\n-            assert.is.equal(2, previewer.lines[2].priority)\n-            assert.is_nil(previewer.lines[3].priority)\n+            assert.is.equal(\"do something else\", previewer.lines[1])\n+            assert.is.equal(\"do something else else else\", previewer.lines[2])\n             assert.is.equal(5, #previewer.lines)\n         end)\n \n         it(\"should done task right\", function()\n-            previewer = require(\"todo.previewer\"):new()\n-            previewer:load_file(filename)\n+            previewer = require(\"todo.previewer\"):new(opts)\n+            previewer:load_file()\n             previewer:preview(\"done\", 1)\n             previewer:preview(\"done\", 1)\n             previewer:preview(\"done\", 1)\n-            assert.is.equal(\"do something else else else\", previewer.lines[1].task)\n-            assert.is.equal(1, previewer.lines[1].priority)\n-            assert.is.equal(\"do something else else else else\", previewer.lines[2].task)\n-            assert.is.equal(2, previewer.lines[2].priority)\n-            assert.is.equal(\"do something else else\", previewer.lines[3].task)\n-            assert.is.equal(os.date(\"%Y-%m-%d\"), previewer.lines[3].date)\n-            assert.is.equal(\"do something else\", previewer.lines[4].task)\n+            assert.is.equal(\"do something else else else\", previewer.lines[1])\n+            assert.is.equal(\"do something else else else else\", previewer.lines[2])\n+            assert.is.equal(\"@\"..os.date(\"%Y-%m-%d\")..\" do something else else\", previewer.lines[3])\n+            assert.is.equal(\"@2016-01-01 done something\", previewer.lines[6])\n             assert.is.equal(8, #previewer.lines)\n         end)\n \n         it(\"should edit task right\", function()\n-            previewer = require(\"todo.previewer\"):new()\n-            previewer:load_file(filename)\n+            previewer = require(\"todo.previewer\"):new(opts)\n+            previewer:load_file()\n             previewer:preview(\"edit\", 1, \"task1\")\n             previewer:preview(\"edit\", 2, \"task2\")\n-            assert.is.equal(\"task1\", previewer.lines[1].task)\n-            assert.is.equal(1, previewer.lines[1].priority)\n-            assert.is.equal(\"task2\", previewer.lines[2].task)\n-            assert.is.equal(2, previewer.lines[2].priority)\n+            assert.is.equal(\"task1\", previewer.lines[1])\n+            assert.is.equal(\"task2\", previewer.lines[2])\n \n             previewer:preview(\"edit\", 1, \"2\")\n             previewer:preview(\"edit\", 2, \"3\")\n-            assert.is.equal(\"task2\", previewer.lines[1].task)\n-            assert.is.equal(1, previewer.lines[1].priority)\n-            assert.is.equal(\"task1\", previewer.lines[3].task)\n-            assert.is.equal(3, previewer.lines[3].priority)\n+            assert.is.equal(\"task2\", previewer.lines[1])\n+            assert.is.equal(\"task1\", previewer.lines[3])\n             assert.is.equal(8, #previewer.lines)\n-\n         end)\n \n+        it(\"should all right\", function()\n+            previewer = require(\"todo.previewer\"):new(opts)\n+            previewer:load_file()\n+\n+            previewer:preview(\"delete\", 5)\n+            previewer:preview(\"delete\", 3)\n+            previewer:preview(\"delete\", 1)\n+            previewer:preview(\"delete\", 2)\n+            assert.is.equal(4, #previewer.lines)\n+            assert.is.equal(\"do something else\", previewer.lines[1])\n+            assert.is.equal(\"@2016-01-01 done something\", previewer.lines[2])\n+\n+            previewer:preview(\"delete\", 1)\n+            previewer:preview(\"add\", 1, \"task1\")\n+            previewer:preview(\"add\", 2, \"task2\")\n+            previewer:preview(\"add\", 3, \"task5\")\n+            previewer:preview(\"add\", 3, \"task3\")\n+            previewer:preview(\"add\", 4, \"task4\")\n+            assert.is.equal(8, #previewer.lines)\n+            for i = 1, 5 do\n+                assert.is.equal(\"task\"..i, previewer.lines[i])\n+            end\n+\n+            previewer:preview(\"edit\", 1, 2)\n+            previewer:preview(\"edit\", 2, 3)\n+            previewer:preview(\"edit\", 3, 4)\n+            previewer:preview(\"edit\", 4, 5)\n+            previewer:preview(\"edit\", 5, 1)\n+            for i = 1, 5 do\n+                assert.is.equal(\"task\"..i, previewer.lines[i])\n+            end\n+\n+            previewer:preview(\"done\", 3)\n+            previewer:preview(\"done\", 1)\n+            previewer:preview(\"done\", 3)\n+            previewer:preview(\"done\", 1)\n+            previewer:preview(\"done\", 1)\n+\n+            assert.is.equal(\"@\"..os.date(\"%Y-%m-%d\")..\" task4\", previewer.lines[1])\n+        end)\n     end)\n \n end)"
+    },
+    {
+      "sha": "915d303bc060b3b605a65883a6ce899e0306e85c",
+      "filename": "lua/tests/todo.txt",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 8,
+      "changes": 16,
+      "blob_url": "https://github.com/Ackeraa/todo.nvim/blob/2f039a5d2de273508d80a4dbcf4c9fc860669320/lua%2Ftests%2Ftodo.txt",
+      "raw_url": "https://github.com/Ackeraa/todo.nvim/raw/2f039a5d2de273508d80a4dbcf4c9fc860669320/lua%2Ftests%2Ftodo.txt",
+      "contents_url": "https://api.github.com/repos/Ackeraa/todo.nvim/contents/lua%2Ftests%2Ftodo.txt?ref=2f039a5d2de273508d80a4dbcf4c9fc860669320",
+      "patch": "@@ -1,8 +1,8 @@\n-1. do something\n-2. do something else\n-3. do something else else\n-4. do something else else else\n-5. do something else else else else\n- @2016-01-01 done something\n- @2016-01-01 done something else\n- @2016-01-01 done something else else\n+do something\n+do something else\n+do something else else\n+do something else else else\n+do something else else else else\n+@2016-01-01 done something\n+@2016-01-01 done something else\n+@2016-01-01 done something else else"
+    },
+    {
+      "sha": "026c7053dabedab0b0c16abb8e99e9ae8b46bd53",
+      "filename": "lua/todo/adder.lua",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 12,
+      "changes": 24,
+      "blob_url": "https://github.com/Ackeraa/todo.nvim/blob/2f039a5d2de273508d80a4dbcf4c9fc860669320/lua%2Ftodo%2Fadder.lua",
+      "raw_url": "https://github.com/Ackeraa/todo.nvim/raw/2f039a5d2de273508d80a4dbcf4c9fc860669320/lua%2Ftodo%2Fadder.lua",
+      "contents_url": "https://api.github.com/repos/Ackeraa/todo.nvim/contents/lua%2Ftodo%2Fadder.lua?ref=2f039a5d2de273508d80a4dbcf4c9fc860669320",
+      "patch": "@@ -1,10 +1,10 @@\n local utils = require(\"todo.utils\")\n-local config = require(\"todo.config\")\n \n local Adder = {}\n \n-function Adder:new()\n+function Adder:new(opts)\n     self.__index = self\n+    self.opts = opts\n     local title_win_id = self:_create_title_window()\n     local prefix_win_id = self:_create_prefix_window()\n     local main_win_id = self:_create_main_window()\n@@ -37,8 +37,8 @@ function Adder:_create_main_window()\n     local border = { \"╭\", \"─\", \"╮\", \"│\", \"┤\", \"─\", \"├\", \"│\" }\n \n     local _, win_id = utils.create_bufwin(\n-            config.width, config.adder_height,\n-            config.row, config.col, border, 1\n+            self.opts.width, self.opts.adder_height,\n+            self.opts.row, self.opts.col, border, 1\n         )\n \n     vim.api.nvim_win_set_option(win_id, \"winhighlight\", \"NormalFloat:Normal,FloatBorder:Constant\")\n@@ -48,8 +48,8 @@ end\n \n function Adder:_create_input_window()\n     local buf, win_id = utils.create_bufwin(\n-            config.width - #config.prompt_prefix, config.adder_height,\n-            config.row + 1, config.col + #config.prompt_prefix, \"none\", 2\n+            self.opts.width - #self.opts.prompt_prefix, self.opts.adder_height,\n+            self.opts.row + 1, self.opts.col + #self.opts.prompt_prefix, \"none\", 2\n         )\n \n     vim.api.nvim_win_set_option(win_id, \"winhighlight\", \"NormalFloat:Normal\")\n@@ -59,12 +59,12 @@ end\n \n function Adder:_create_title_window()\n     local buf, win_id = utils.create_bufwin(\n-            #config.title, 1, config.row,\n-            config.col + math.ceil((config.width - #config.title) / 2),\n+            #self.opts.title, 1, self.opts.row,\n+            self.opts.col + math.ceil((self.opts.width - #self.opts.title) / 2),\n             \"none\", 2\n         )\n \n-    vim.api.nvim_buf_set_lines(buf, 0, -1, true, { config.title })\n+    vim.api.nvim_buf_set_lines(buf, 0, -1, true, { self.opts.title })\n     vim.api.nvim_buf_add_highlight(buf, -1, \"TodoTitle\", 0, 0, -1)\n     vim.api.nvim_win_set_config(win_id, { focusable = false })\n     vim.api.nvim_win_set_option(win_id, \"winhighlight\", \"NormalFloat:Normal\")\n@@ -74,11 +74,11 @@ end\n \n function Adder:_create_prefix_window()\n     local buf, win_id = utils.create_bufwin(\n-            #config.prompt_prefix, 1, config.row + 1,\n-            config.col + 1, \"none\", 2\n+            #self.opts.prompt_prefix, 1, self.opts.row + 1,\n+            self.opts.col + 1, \"none\", 2\n         )\n \n-    vim.api.nvim_buf_set_lines(buf, 0, -1, true, { config.prompt_prefix })\n+    vim.api.nvim_buf_set_lines(buf, 0, -1, true, { self.opts.prompt_prefix })\n     vim.api.nvim_buf_add_highlight(buf, -1, \"TodoPrompt\", 0, 0, -1)\n     vim.api.nvim_win_set_config(win_id, { focusable = false })\n     vim.api.nvim_win_set_option(win_id, \"winhighlight\", \"NormalFloat:Normal\")"
+    },
+    {
+      "sha": "f868097c3782995d7a7accf33a74ea54d8ce9b20",
+      "filename": "lua/todo/config.lua",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 13,
+      "changes": 32,
+      "blob_url": "https://github.com/Ackeraa/todo.nvim/blob/2f039a5d2de273508d80a4dbcf4c9fc860669320/lua%2Ftodo%2Fconfig.lua",
+      "raw_url": "https://github.com/Ackeraa/todo.nvim/raw/2f039a5d2de273508d80a4dbcf4c9fc860669320/lua%2Ftodo%2Fconfig.lua",
+      "contents_url": "https://api.github.com/repos/Ackeraa/todo.nvim/contents/lua%2Ftodo%2Fconfig.lua?ref=2f039a5d2de273508d80a4dbcf4c9fc860669320",
+      "patch": "@@ -5,15 +5,18 @@ local config = {}\n local width = vim.api.nvim_get_option(\"columns\")\n local height = vim.api.nvim_get_option(\"lines\")\n \n-config.title = \" TODO \"\n-config.prompt_prefix = \" \"\n-config.done_caret = \" \"\n-config.file_path = \"lua/todo/todo.txt\"\n-config.adder_height = 1\n-config.previewer_height = math.ceil(height * 0.3)\n-config.width = math.ceil(width * 0.5)\n-config.row = math.ceil((height - config.adder_height - config.previewer_height) / 2) - 1\n-config.col = math.ceil((width - config.width) / 2)\n+config.opts = {\n+    title = \" TODO \",\n+    prompt_prefix = \" \",\n+    done_caret = \" \",\n+    upload_to_reminder = false,\n+    adder_height = 1,\n+    previewer_height = math.ceil(height * 0.3),\n+    width = math.ceil(width * 0.5),\n+    row = math.ceil((height * 0.7 - 1) / 2) - 1,\n+    col = math.ceil((width * 0.5) / 2),\n+    file_path = 1,\n+}\n \n config.highlights = {\n     TodoTitle = { default = true, link = \"Title\" },\n@@ -27,16 +30,19 @@ config.highlights = {\n     TodoDate = { default = true, link = \"Comment\" },\n }\n \n-config.setup = function(opts)\n-    --[[ if opts.file_path == nil then\n+config.setup = function(custom_config)\n+    if custom_config.opts == nil or custom_config.opts.file_path == nil then\n         log.error(\"Todo file path is not specified\")\n         return nil\n-    end ]]\n-    config = vim.tbl_deep_extend(\"force\", config, opts)\n+    end\n+\n+    config = vim.tbl_deep_extend(\"force\", config, custom_config)\n \n     for k, v in pairs(config.highlights) do\n       vim.api.nvim_set_hl(0, k, v)\n     end\n+\n+    return config\n end\n \n return config"
+    },
+    {
+      "sha": "2a845a9e0f3b2798d85c651195f8fae85567d7eb",
+      "filename": "lua/todo/extensions/reminder/init.lua",
+      "status": "added",
+      "additions": 20,
+      "deletions": 0,
+      "changes": 20,
+      "blob_url": "https://github.com/Ackeraa/todo.nvim/blob/2f039a5d2de273508d80a4dbcf4c9fc860669320/lua%2Ftodo%2Fextensions%2Freminder%2Finit.lua",
+      "raw_url": "https://github.com/Ackeraa/todo.nvim/raw/2f039a5d2de273508d80a4dbcf4c9fc860669320/lua%2Ftodo%2Fextensions%2Freminder%2Finit.lua",
+      "contents_url": "https://api.github.com/repos/Ackeraa/todo.nvim/contents/lua%2Ftodo%2Fextensions%2Freminder%2Finit.lua?ref=2f039a5d2de273508d80a4dbcf4c9fc860669320",
+      "patch": "@@ -0,0 +1,20 @@\n+local reminder = {}\n+\n+reminder.script_path = function()\n+   local str = debug.getinfo(2, \"S\").source:sub(2)\n+   return str:match(\"(.*/)\")\n+end\n+\n+-- do not use this, because it's pretty slow.\n+reminder.read_from_reminder = function(file_path)\n+    local script = reminder.script_path..\"read_from_reminder.scpt \"\n+    io.popen(\"osascript \"..script..file_path)\n+end\n+\n+reminder.write_to_reminder = function(file_path)\n+    local script = reminder.script_path()..\"write_to_reminder.scpt \"\n+    io.popen(\"osascript \"..script..file_path)\n+end\n+\n+return reminder\n+"
+    },
+    {
+      "sha": "53b5e540abf7dddd4f31412094dc5b0ca4c23cf1",
+      "filename": "lua/todo/extensions/reminder/read_from_reminder.scpt",
+      "status": "added",
+      "additions": 15,
+      "deletions": 0,
+      "changes": 15,
+      "blob_url": "https://github.com/Ackeraa/todo.nvim/blob/2f039a5d2de273508d80a4dbcf4c9fc860669320/lua%2Ftodo%2Fextensions%2Freminder%2Fread_from_reminder.scpt",
+      "raw_url": "https://github.com/Ackeraa/todo.nvim/raw/2f039a5d2de273508d80a4dbcf4c9fc860669320/lua%2Ftodo%2Fextensions%2Freminder%2Fread_from_reminder.scpt",
+      "contents_url": "https://api.github.com/repos/Ackeraa/todo.nvim/contents/lua%2Ftodo%2Fextensions%2Freminder%2Fread_from_reminder.scpt?ref=2f039a5d2de273508d80a4dbcf4c9fc860669320",
+      "patch": "@@ -0,0 +1,15 @@\n+# Has not been used yet.\n+on run argv\n+    set file_path to item 1 of argv\n+    set todoFile to open for access file_path with write permission\n+    set todoList to \"Todo\"\n+\n+    tell application \"Reminders\"\n+        set tasks to reminders of list todoList\n+        repeat with task in tasks\n+            write (name of task as string) & \"\\n\" to todoFile\n+        end repeat\n+    end tell\n+\n+    close access todoFile\n+end run"
+    },
+    {
+      "sha": "d502a11d1704944c5b230b1b0d28e8e1020ee28c",
+      "filename": "lua/todo/extensions/reminder/write_to_reminder.scpt",
+      "status": "added",
+      "additions": 23,
+      "deletions": 0,
+      "changes": 23,
+      "blob_url": "https://github.com/Ackeraa/todo.nvim/blob/2f039a5d2de273508d80a4dbcf4c9fc860669320/lua%2Ftodo%2Fextensions%2Freminder%2Fwrite_to_reminder.scpt",
+      "raw_url": "https://github.com/Ackeraa/todo.nvim/raw/2f039a5d2de273508d80a4dbcf4c9fc860669320/lua%2Ftodo%2Fextensions%2Freminder%2Fwrite_to_reminder.scpt",
+      "contents_url": "https://api.github.com/repos/Ackeraa/todo.nvim/contents/lua%2Ftodo%2Fextensions%2Freminder%2Fwrite_to_reminder.scpt?ref=2f039a5d2de273508d80a4dbcf4c9fc860669320",
+      "patch": "@@ -0,0 +1,23 @@\n+on run argv\n+    set file_path to item 1 of argv\n+    set tasks to paragraphs of (read POSIX file file_path)\n+    set todoList to \"Todo\"\n+\n+    tell application \"Reminders\"\n+        tell list todoList\n+            delete every reminder\n+        end tell\n+    end tell\n+\n+    repeat with task in tasks\n+        tell application \"Reminders\"\n+            tell list todoList \n+                if task starts with \"@\" then \n+                    exit repeat\n+                else\n+                    make new reminder at end with properties {name:task}\n+                end if\n+            end tell\n+        end tell\n+    end repeat\n+end run"
+    },
+    {
+      "sha": "9a893c29f036b7e270dc968b88800c042a4640e5",
+      "filename": "lua/todo/init.lua",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 8,
+      "changes": 18,
+      "blob_url": "https://github.com/Ackeraa/todo.nvim/blob/2f039a5d2de273508d80a4dbcf4c9fc860669320/lua%2Ftodo%2Finit.lua",
+      "raw_url": "https://github.com/Ackeraa/todo.nvim/raw/2f039a5d2de273508d80a4dbcf4c9fc860669320/lua%2Ftodo%2Finit.lua",
+      "contents_url": "https://api.github.com/repos/Ackeraa/todo.nvim/contents/lua%2Ftodo%2Finit.lua?ref=2f039a5d2de273508d80a4dbcf4c9fc860669320",
+      "patch": "@@ -4,21 +4,23 @@ local M = {}\n function M.open()\n \n     -- for debug purpose\n-    RELOAD(\"todo.adder\")\n+    --[[ RELOAD(\"todo.adder\")\n     RELOAD(\"todo.previewer\")\n     RELOAD(\"todo.window\")\n     RELOAD(\"todo.utils\")\n-    RELOAD(\"todo.config\")\n-    if M.window == nil or M.window.adder == nil then\n-        M.setup()\n-        M.window = require(\"todo.window\"):new()\n+    RELOAD(\"todo.config\") ]]\n+    if M.opts and (M.window == nil or M.window.adder == nil) then\n+        M.window = require(\"todo.window\"):new(M.opts)\n         M.window:setup()\n     end\n end\n \n-function M.setup(opts)\n-    opts = opts or {}\n-    require(\"todo.config\").setup(opts)\n+function M.setup(custom_config)\n+    local config = require(\"todo.config\").setup(custom_config)\n+    if config == nil then\n+        return\n+    end\n+    M.opts = config.opts\n end\n \n return M"
+    },
+    {
+      "sha": "320c1e1ac849ad0705a1369f3e53a10b9512635e",
+      "filename": "lua/todo/previewer.lua",
+      "status": "modified",
+      "additions": 32,
+      "deletions": 65,
+      "changes": 97,
+      "blob_url": "https://github.com/Ackeraa/todo.nvim/blob/2f039a5d2de273508d80a4dbcf4c9fc860669320/lua%2Ftodo%2Fpreviewer.lua",
+      "raw_url": "https://github.com/Ackeraa/todo.nvim/raw/2f039a5d2de273508d80a4dbcf4c9fc860669320/lua%2Ftodo%2Fpreviewer.lua",
+      "contents_url": "https://api.github.com/repos/Ackeraa/todo.nvim/contents/lua%2Ftodo%2Fpreviewer.lua?ref=2f039a5d2de273508d80a4dbcf4c9fc860669320",
+      "patch": "@@ -1,14 +1,15 @@\n local log = require(\"todo.log\")\n local utils = require(\"todo.utils\")\n-local config = require(\"todo.config\")\n \n local Previewer = {}\n \n-function Previewer:new()\n+function Previewer:new(opts)\n+    self.__index = self\n+    self.opts = opts\n     local border = { \"├\", \"─\", \"┤\", \"│\", \"╯\", \"─\", \"╰\", \"│\" }\n     local buf, win_id = utils.create_bufwin(\n-            config.width, config.previewer_height,\n-            config.row + 2, config.col, border, 1\n+            opts.width, opts.previewer_height,\n+            opts.row + 2, opts.col, border, 1\n         )\n \n     vim.api.nvim_win_set_option(win_id, \"cursorline\", true)\n@@ -21,14 +22,12 @@ function Previewer:new()\n         lines = {},\n         todos = 0,\n     }\n-    self.__index = self\n-\n     return setmetatable(previewer, self)\n end\n \n function Previewer:add_highlight()\n     vim.fn.matchadd(\"TodoPriority\", \"^\\\\d\\\\+\\\\.\")\n-    vim.fn.matchadd(\"TodoDone\", \"^\"..config.done_caret)\n+    vim.fn.matchadd(\"TodoDone\", \"^\"..self.opts.done_caret)\n     vim.fn.matchadd(\"TodoDate\", \"@\\\\d\\\\+-\\\\d\\\\+-\\\\d\\\\+\")\n end\n \n@@ -60,24 +59,14 @@ function Previewer:_add(priority, task)\n         log.error(\"Task priority is too high\")\n         return\n     end\n-    -- shift dones\n-    for i = #self.lines, self.todos + 1, -1 do\n-        self.lines[i + 1] = self.lines[i]\n-    end\n \n-    -- shift todos after priority\n-    for i = self.todos, priority, -1 do\n-        self.lines[i + 1] = {\n-            priority = self.lines[i].priority + 1,\n-            task = self.lines[i].task\n-        }\n+    -- shift\n+    for i = #self.lines, priority, -1 do\n+        self.lines[i + 1] = self.lines[i]\n     end\n \n     -- add new task\n-    self.lines[priority] = {\n-        priority = priority,\n-        task = task\n-    }\n+    self.lines[priority] = task\n     self.todos = self.todos + 1\n end\n \n@@ -87,13 +76,8 @@ function Previewer:_delete(priority)\n         return\n     end\n \n-    -- shift todos\n-    for i = priority, self.todos - 1 do\n-        self.lines[i].task = self.lines[i + 1].task\n-    end\n-\n-    -- shift dones\n-    for i = self.todos, #self.lines - 1 do\n+    -- shift\n+    for i = priority, #self.lines - 1 do\n         self.lines[i] = self.lines[i + 1]\n     end\n \n@@ -108,18 +92,15 @@ function Previewer:_done(priority)\n         return\n     end\n \n-    local done = self.lines[priority].task\n+    local task = self.lines[priority]\n \n-    -- shift todos\n+    -- shift\n     for i = priority, self.todos - 1 do\n-        self.lines[i].task = self.lines[i + 1].task\n+        self.lines[i] = self.lines[i + 1]\n     end\n \n     -- done the task\n-    self.lines[self.todos] = {\n-        date = os.date(\"%Y-%m-%d\"),\n-        task = done,\n-    }\n+    self.lines[self.todos] = \"@\"..os.date(\"%Y-%m-%d\").. \" \"..task\n     self.todos = self.todos - 1\n end\n \n@@ -135,20 +116,19 @@ function Previewer:_edit(priority, task_or_priority)\n             log.error(\"Task priority is too high\")\n         end\n \n-        local task = self.lines[priority].task\n+        local task = self.lines[priority]\n         self:_delete(priority)\n         self:_add(num, task)\n     else\n-        self.lines[priority].task = task_or_priority\n+        self.lines[priority] = task_or_priority\n     end\n end\n \n function Previewer:load_file()\n-    local file = io.open(config.file_path, \"r\")\n+    local file = io.open(self.opts.file_path, \"r\")\n     if file then\n         for line in file:lines() do\n-            line = self:_parse(line)\n-            if line.priority  then\n+            if line:sub(1, 1) ~= \"@\"  then\n                 self.todos = self.todos + 1\n             end\n             table.insert(self.lines, line)\n@@ -159,44 +139,27 @@ function Previewer:load_file()\n end\n \n function Previewer:save_file()\n-    local file = io.open(config.file_path, \"w\")\n+    local file = io.open(self.opts.file_path, \"w\")\n     if file then\n-        local lines = self:_repr()\n-        for _, line in ipairs(lines) do\n+        for _, line in ipairs(self.lines) do\n             file:write(line .. \"\\n\")\n         end\n         file:close()\n     else\n-        log.error(\"Failed to open file: \", config.file_path)\n-    end\n-end\n-\n-function Previewer:_parse(line)\n-    local priority = line:match(\"^(%d+)\")\n-    if priority then\n-        return {\n-            priority = tonumber(priority),\n-            task = line:sub(#priority + 3)\n-        }\n-    else\n-        local date = line:match(\"@(%d+-%d+-%d+)\")\n-        local task = line:match(\"@%d+-%d+-%d+%s+(.+)$\")\n-        return {\n-            date = date,\n-            task = task\n-        }\n+        log.error(\"Failed to open file: \", self.opts.file_path)\n     end\n end\n \n function Previewer:_repr()\n     local lines = {}\n-    for _, line in ipairs(self.lines) do\n-        if line.priority then\n-            table.insert(lines, line.priority .. \". \" .. line.task)\n+    for i, line in ipairs(self.lines) do\n+        if line:sub(1, 1) ~= \"@\" then\n+            table.insert(lines, i .. \". \" .. line)\n         else\n-            table.insert(lines, config.done_caret..\" @\"..line.date..\" \"..line.task)\n+            table.insert(lines, self.opts.done_caret..line)\n         end\n     end\n+\n     return lines\n end\n \n@@ -207,6 +170,10 @@ end\n \n function Previewer:close()\n     vim.api.nvim_win_close(self.win_id, true)\n+    if self.opts.upload_to_reminder then\n+        local reminder = require(\"todo.extensions.reminder\")\n+        reminder.write_to_reminder(self.opts.file_path)\n+    end\n end\n \n return Previewer"
+    },
+    {
+      "sha": "388046332134870657e5ab7926c858ce1b19752e",
+      "filename": "lua/todo/todo.txt",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 2,
+      "changes": 2,
+      "blob_url": "https://github.com/Ackeraa/todo.nvim/blob/943ba29d3c504f694235ec93d9895a68adf4e552/lua%2Ftodo%2Ftodo.txt",
+      "raw_url": "https://github.com/Ackeraa/todo.nvim/raw/943ba29d3c504f694235ec93d9895a68adf4e552/lua%2Ftodo%2Ftodo.txt",
+      "contents_url": "https://api.github.com/repos/Ackeraa/todo.nvim/contents/lua%2Ftodo%2Ftodo.txt?ref=943ba29d3c504f694235ec93d9895a68adf4e552",
+      "patch": "@@ -1,2 +0,0 @@\n-  @2022-06-30 do another thing\n-  @2022-06-30 do new one thing"
+    },
+    {
+      "sha": "c892e41b96fa31204824827583da40c3d265e3e5",
+      "filename": "lua/todo/window.lua",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "changes": 8,
+      "blob_url": "https://github.com/Ackeraa/todo.nvim/blob/2f039a5d2de273508d80a4dbcf4c9fc860669320/lua%2Ftodo%2Fwindow.lua",
+      "raw_url": "https://github.com/Ackeraa/todo.nvim/raw/2f039a5d2de273508d80a4dbcf4c9fc860669320/lua%2Ftodo%2Fwindow.lua",
+      "contents_url": "https://api.github.com/repos/Ackeraa/todo.nvim/contents/lua%2Ftodo%2Fwindow.lua?ref=2f039a5d2de273508d80a4dbcf4c9fc860669320",
+      "patch": "@@ -3,9 +3,9 @@ local Previewer = require(\"todo.previewer\")\n \n local Window = {}\n \n-function Window:new()\n-    local previewer = Previewer:new()\n-    local adder = Adder:new()\n+function Window:new(opts)\n+    local previewer = Previewer:new(opts)\n+    local adder = Adder:new(opts)\n \n     local window = {\n         adder = adder,\n@@ -18,7 +18,7 @@ end\n function Window:setup()\n     -- TODO: ugly implementation, need to be improved\n     self:switch_window(\"previewer\")\n-    self.previewer.add_highlight()\n+    self.previewer:add_highlight()\n     self:switch_window(\"adder\")\n     self.adder.add_highlight()\n "
+    }
+  ]
+}
