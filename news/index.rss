@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>奇客Solidot&#8211;传递最新科技情报</title>
+<link>https://www.solidot.org</link>
+<description><![CDATA[奇客的知识，重要的东西。]]></description>
+<atom:link href="https://www.solidot.org/index.rss" rel="self" type="application/rss+xml"></atom:link>
+<language>zh-cn</language>
+<pubDate>Thu, 15 Sep 2022 15:15:01 +0800</pubDate>
+<ttl>20</ttl>
+<item>
+<title><![CDATA[百度的自然语言图像合成模型有敏感词限制]]></title>
+<link><![CDATA[https://www.solidot.org/story?sid=72771]]></link>
+<description><![CDATA[百度发布了自己的自然语言图像合成模型 ERNIE-ViLG，有中国视频主播<a href="https://www.bilibili.com/video/BV1Ug411U7VL/">对比</a>了用 ERNIE-ViLG、DALL-E 2 和 Stable Diffusion 等不同模型生成的图像，认为 ERNIE-ViLG 产生了更精确的图像。百度在 Hugging Face 上发布了 ERNIE-ViLG 的 <a href="https://huggingface.co/spaces/PaddlePaddle/ERNIE-ViLG">DEMO</a>，用户很快注意到与 DALL-E 2 和 Stable Diffusion 等 AI 模型的区别：<a href="https://www.technologyreview.com/2022/09/14/1059481/baidu-chinese-image-ai-tiananmen/">有敏感词限制</a>。输入某些词语会返回“存在敏感词，请重新输入”或者“输入内容不符合相关规则，请调整后再试！”]]></description>
+<pubDate>Thu, 15 Sep 2022 11:48:32 +0800</pubDate>
+</item>
+<item>
+<title><![CDATA[TikTok 高管接受美国参议院的询问]]></title>
+<link><![CDATA[https://www.solidot.org/story?sid=72770]]></link>
+<description><![CDATA[TikTok 首席运营官 Vanessa Pappas 周三在美国参议院国土安全和政府事务委员会接<a href="https://www.nytimes.com/2022/09/14/technology/tiktok-china-senate.html" target="_blank">受议员们的询问</a>。美国参议员和监管机构担心 TikTok 会将美国用户的数据交给中国政府，Pappas 对此坚决否认，称从未向中国政府提供数据，而且母公司字节跳动的总部也不在中国，因为它根本没有总部。她说字节跳动有严格的数据访问控制，中国政府没有影响到该公司的企业政策。TikTok 最近开始通过甲骨文的服务器发送流量，但部分数据仍然会备份在字节跳动位于新加坡和美国弗吉尼亚州的服务器上。]]></description>
+<pubDate>Thu, 15 Sep 2022 11:31:02 +0800</pubDate>
+</item>
+<item>
+<title><![CDATA[美国财政部澄清对 Tornado Cash 的制裁不涉及分享源代码]]></title>
+<link><![CDATA[https://www.solidot.org/story?sid=72769]]></link>
+<description><![CDATA[美国财政部上个月<a href="https://www.solidot.org/story?sid=72407">宣布</a>制裁被控为朝鲜黑客组织 Lazarus Group 洗钱的加密货币混币器 Tornado Cash，禁止美国个人或组织与 Tornado Cash 
+有任何交易往来。源码托管平台 GitHub 随即下架了 Tornado Cash 代码库，删除了开发者账号。荷兰还<a href="https://www.solidot.org/story?sid=72450">逮捕了</a>一名 Tornado Cash 开发者。此事引发了争议。美国财政部现在<a href="https://www.theblock.co/post/169688/treasury-says-sanctions-on-tornado-cash-dont-stop-people-from-sharing-code">澄清</a>对 Tornado Cash 的制裁不涉及源代码，美国人可以查看、复制、讨论和教授源代码，或将源代码包含在书面出版物中。]]></description>
+<pubDate>Thu, 15 Sep 2022 10:56:03 +0800</pubDate>
+</item>
+<item>
+<title><![CDATA[韩国对 Do Kwon 发出逮捕令]]></title>
+<link><![CDATA[https://www.solidot.org/story?sid=72768]]></link>
+<description><![CDATA[加密货币 Luna 及算法稳定币 terraUSD 币值今年五月的崩溃让 Luna 的创始人 Do Kwon 成为韩国最讨厌的人。在损失了大量金钱的投资者投诉之后，韩国检方对 Do Kwon 的 Terraform Labs <a href="https://www.solidot.org/story?sid=71633">展开了调查</a>。本周三，首尔南部地方检察厅宣布从当地法庭获得了对 Kwon 等六人的<a href="https://cn.wsj.com/articles/%E9%9F%A9%E5%9B%BD%E5%BD%93%E5%B1%80%E5%AF%B9%E5%B4%A9%E6%BA%83%E7%9A%84%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81%E6%98%8E%E6%98%9F%E5%BC%80%E5%8F%91%E8%80%85do-kwon%E5%8F%91%E5%87%BA%E9%80%AE%E6%8D%95%E4%BB%A4-11663200305">逮捕令</a>，其中包括 Terrraform Labs 创始成员 Nicholas Platias。Kwon  本人最近一直在新加坡。]]></description>
+<pubDate>Thu, 15 Sep 2022 09:36:13 +0800</pubDate>
+</item>
+<item>
+<title><![CDATA[为什么一部分人不会感染新冠]]></title>
+<link><![CDATA[https://www.solidot.org/story?sid=72767]]></link>
+<description><![CDATA[在新冠疫情流行期间，一部分人感染之后症状严重，一部分人症状轻微，还有部分人在反复暴露和密接之后仍然不会感染。他们天然的免疫能力也许能成为对抗新冠的关键。纽约洛克菲勒大学科学家领导的一个国际团队<a href="https://arstechnica.com/science/2022/09/the-mystery-of-why-some-people-dont-catch-covid/">正在招募免疫新冠病毒的志愿者</a>，在筛选出真正的能免疫新冠的志愿者之后，研究人员将测序每一个人的基因组，寻找出他们共享的基因突变，然后挑选出候选基因突变的名单，逐个检查，在细胞模型中观察每个基因对抗 COVID 的防御能力。研究人员估计这一过程需要 4 到 6 个月。]]></description>
+<pubDate>Wed, 14 Sep 2022 23:59:23 +0800</pubDate>
+</item>
+<item>
+<title><![CDATA[科学家发现空气污染导致肺癌的机制]]></title>
+<link><![CDATA[https://www.solidot.org/story?sid=72766]]></link>
+<description><![CDATA[科学家<a href="https://www.bbc.com/news/health-62797777">发现了</a>空气污染导致肺癌的机制，这一突破有望改变我们对于肿瘤形成的理解。伦敦 Francis Crick 研究所的研究人员发现，空气污染没有伤害细胞，而是唤醒旧的受损细胞。这一发现有助于解释致癌物质如何作用于人体。癌症的经典观点认为它始于健康细胞，随着 DNA 中积累愈来愈多的突变，最终到达临界点转变成了癌细胞。问题是看起来健康的组织已经发现致癌突变，但包括空气污染之内的致癌物质并没有伤害 DNA 本身。研究人员给出了一种不同癌症起源理论的证据。随着年龄的助长，细胞 DNA 已经遍体鳞伤，但需要扳机激活使其成为癌细胞。空气污染等起到了化学警报的作用激活受损细胞成为癌细胞。研究人员还发现能通过一种阻断警报信号的药物，阻止暴露在空气污染下的小鼠发展出癌症。]]></description>
+<pubDate>Wed, 14 Sep 2022 23:31:17 +0800</pubDate>
+</item>
+<item>
+<title><![CDATA[Goolge Android 反垄断案上诉失败但罚款略降]]></title>
+<link><![CDATA[https://www.solidot.org/story?sid=72765]]></link>
+<description><![CDATA[2018 年欧盟以 Google 滥用 Android 操作系统主导地位捆绑应用和限制竞争为由对其开出了 43 欧元的创记录罚单。本周三欧盟对于 Google 的上诉<a href="https://www.theverge.com/2022/9/14/23341207/google-eu-android-antitrust-fine-appeal-failed-4-billion" target="_blank">维持原裁决</a>，但罚款略减少至 41 亿欧元。Google 在上诉中列举的理由包括：因为存在 iOS 所以 Android 不是完全支配移动市场；它限制厂商预装 Android fork 是为了避免 Android 生态系统的碎片化。欧盟综合法院(General Court)维持了大部分对 Google 的指控，但认为 Google 与厂商的收入分享方案没有滥用市场力量，因此降低了罚款。]]></description>
+<pubDate>Wed, 14 Sep 2022 19:23:06 +0800</pubDate>
+</item>
+<item>
+<title><![CDATA[YouTube 主播用 /pol/ 讨论版内容训练 AI]]></title>
+<link><![CDATA[https://www.solidot.org/story?sid=72764]]></link>
+<description><![CDATA[YouTube 主播 Yannic Kilcher 使用 4chan 匿名论坛政治不正确讨论版块 /pol/ 三年的内容<a href="https://www.youtube.com/watch?v=efPrtcLdcdM" target="_blank">训练了</a>一个 AI 语言模型。<a href="https://en.wikipedia.org/wiki//pol/"> /pol/ </a> 是 4chan 上最活跃的版块，以其种族主义和其它极右极端主义内容著称。Kilcher 将该 AI 模型用于 10 个机器人程序，然后去 /pol/ 上发帖，24 小时发了 1.5 万个帖子，占了当天该版块所有帖子的十分之一。该语言模型被命名为 GPT-4chan，它在模仿 /pol/ 用户发帖上做到了惟妙惟肖，虽然偶尔会犯错，但该版块的用户花了两天时间才注意到问题，并识别出了其中一个机器人账号。机器人账号导致了用户之间的不信任，即使 Kilcher 关闭机器人程序之后用户彼此之间仍然会<a href="https://tech.slashdot.org/story/22/09/13/038244/youtuber-trains-ai-on-4chans-most-hateful-board">指责对方是机器人</a>。]]></description>
+<pubDate>Wed, 14 Sep 2022 18:57:35 +0800</pubDate>
+</item>
+<item>
+<title><![CDATA[腾讯网易一年来首次获得新游戏版号]]></title>
+<link><![CDATA[https://www.solidot.org/story?sid=72763]]></link>
+<description><![CDATA[国内收入最高的两家游戏公司腾讯和网易一年多来首次获得新游戏版号。负责游戏版号审批的监管机构国家新闻出版广电总局于 9 月 13 日公布了“<a href="https://www.nppa.gov.cn/nppa/contents/320/104947.shtml">2022 年 9 月份国产网络游戏审批信息</a>”，网易的手游《全明星街球派对》和腾讯旗下南京网典的手游《健康保卫战》获批。分析师<a href="https://cn.wsj.com/articles/%E4%B8%AD%E5%9B%BD%E5%8F%91%E6%94%BE%E6%96%B0%E4%B8%80%E6%89%B9%E6%B8%B8%E6%88%8F%E7%89%88%E5%8F%B7-%E8%85%BE%E8%AE%AF%E4%B8%80%E5%B9%B4%E5%A4%9A%E6%9D%A5%E9%A6%96%E6%AC%A1%E4%B8%8A%E6%A6%9C-11663140605">表示</a>，腾讯和网易这两款游戏获批对这两家公司业绩的影响或许有限，但这表明政府对游戏的审批正在回归正常状态，并将有助于消除对这两家游戏行业龙头可能被排除在外的担忧。]]></description>
+<pubDate>Wed, 14 Sep 2022 16:58:23 +0800</pubDate>
+</item>
+<item>
+<title><![CDATA[Google 和 Meta 因非法收集个人信息被韩国罚款千亿韩元]]></title>
+<link><![CDATA[https://www.solidot.org/story?sid=72762]]></link>
+<description><![CDATA[Google 和 Meta 涉嫌在韩国未经用户同意收集个人信息并<a href="https://cn.yna.co.kr/view/ACK20220914003800881" target="_blank">将此用于在线投放个性化广告</a>，分别被罚 692 亿韩元和 308 亿韩元。韩个人信息保护委员会 14 日开会做出了上述决定。委员会还勒令两家公司若要收集和利用旗下用户利用其它公司平台的行为信息，必须提前通知用户，让用户容易、明确地了解情况并自由行使决定权。这是韩国就在线广告平台收集和利用用户信息的行为首次做出的处罚决定，罚款金额为违反《关于保护个人信息的法律》规定的案件之最。]]></description>
+<pubDate>Wed, 14 Sep 2022 16:49:48 +0800</pubDate>
+</item>
+<item>
+<title><![CDATA[Blue Origin 的 New Shepard 火箭发射失败]]></title>
+<link><![CDATA[https://www.solidot.org/story?sid=72761]]></link>
+<description><![CDATA[亚马逊创始人贝索斯（Jeff Bezos）旗下 Blue Origin 公司 New Shepard 火箭的第 23 发射<a href="https://www.blueorigin.com/news/ns-23-mission-updates/" target="_blank">失败</a>，火箭坠毁，太空舱没有载人，它的逃生系统成功启动与火箭分离，使用降落伞安全着落。此次事故没有造成任何人员伤亡。Blue Origin 最近一段时间问题不断，它在 2014 年与联合发射联盟（ULA）合作向后者的新火箭 Vulcan 提供 BE-4 火箭引擎，但到了 2022 年下半年引擎仍然没有交付。它在六周前将 BE-4 引擎的首个飞行版本送到德克萨斯州验证测试，结果在热试（hot-fire）开始时就发现了一个问题，需要将引擎送回工厂。ULA 的 Vulcan 火箭<a href="https://arstechnica.com/science/2022/09/as-summer-turns-to-fall-ula-still-waiting-for-its-be-4-rocket-engines/" target="_blank">基本上不太可能在 2022 年内进行首次试飞</a>，除非有奇迹发生。]]></description>
+<pubDate>Wed, 14 Sep 2022 16:45:42 +0800</pubDate>
+</item>
+<item>
+<title><![CDATA[现代操作系统如何启动的魔法]]></title>
+<link><![CDATA[https://www.solidot.org/story?sid=72760]]></link>
+<description><![CDATA[<a href="http://https://hardenedvault.net/">HardenedVault</a> 写道<i> "在x86/amd64架构下，Linux内核通常被打包成bzImage格式，其中包含用于引导参数的部分填充数据结构，以及16位实模式，32位保护模式和64位长模式的多个阶段入口点（如果为amd64构建），<a href="https://hardenedvault.net/blog/2022-09-13-modern-os-boot-magic/" target="_blank">最后一个阶段是自解压缩平面二进制文件</a>，它将正确解压缩和执行gzip压缩的内核映像， 也以平面二进制的格式，存储在其数据段中。每个阶段都将初始化下一阶段的正确执行环境，将CPU切换到下一阶段可以工作的模式，然后执行下一阶段。当然，Linux内核能够从16位实模式启动，但它也允许引导加载程序为以后阶段准备执行环境（例如32位保护模式或64位长模式），并从相应的入口点执行Linux内核。例如，如果引导加载程序本身主要在 32 位保护模式下工作，那么从其 32 位保护模式入口点引导 Linux 内核将是最有效的方法，而为 amd64 构建的 Linux 内核将在使用 kexec 引导另一个为 amd64 构建的 Linux 内核时选择 64 位长模式的入口点。最近，<a href="https://lore.kernel.org/all/YjHMEsXiraMrOLN4@MiWiFi-R3L-srv/T/" target="_blank">QEMU 的一个bug导致 kexec 之后的内核崩溃</a>，因为 kexec-ed 内核将无法解压缩压缩的 initrd。此错误仅影响在 QEMU 中使用压缩内联的新 Linux 内核。物理机器上的 kexec，以及在 QEMU 中使用压缩的 initrd 引导 Linux 内核的其他方法，均不受影响。<br>
+<br>
+当然，在 QEMU 中，<a href="https://hardenedvault.net/blog/2022-09-13-modern-os-boot-magic/" target="_blank">使用未压缩的initrd来创建新Linux内核是有效的</a>，因此，如果您想在 QEMU中使用基于kexec的引导加载程序，则可能必须使用未压缩的initrd才能引导目标系统。<a href="https://hardenedvault.net/blog/2022-09-13-modern-os-boot-magic/" target="_blank">HardenedVault（赛博堡垒）的Vault Labs使用此类方法</a>成功完成了vTPM环境下的远程证明。"</i>]]></description>
+<pubDate>Wed, 14 Sep 2022 15:23:06 +0800</pubDate>
+</item>
+<item>
+<title><![CDATA[无处不在的塑料可能助长了肥胖]]></title>
+<link><![CDATA[https://www.solidot.org/story?sid=72759]]></link>
+<description><![CDATA[全世界肥胖的人愈来愈多。美国四成的高中生超重，全球 1970 年代以来肥胖率翻了一番，到 2030 年肥胖症的人数预计将达到 10 亿。肥胖会带来严重后果，它与高血压、糖尿病、心脏病等健康问题密切相关。导致肥胖的原因目前还没有共识，科学家确认了部分促成因素，包括遗传、压力、病毒，睡眠习惯改变，高糖高盐高脂肪等加工食品的流行。科学家提出的一个新兴的观点是环境中无处不在的化学制品与肥胖症有关联，虽然化学物品的剂量很低，但仍然会干扰人类新陈代谢的正常工作，扰乱人体调节能量摄入和消耗的能力。被称为致肥剂的化学品促进了与肥胖有关的特定细胞类型和脂肪组织的产生。这些化学品被广泛用于塑料包装、衣服和家具、化妆品、食品添加剂、除草剂和杀虫剂。十年前<a href="https://science.slashdot.org/story/22/09/12/1424259/plastic-might-be-making-you-obese" target="_blank">化学诱导肥胖</a>的观点还是不被广泛接受的边缘假说，但如今不再是了。]]></description>
+<pubDate>Wed, 14 Sep 2022 15:22:06 +0800</pubDate>
+</item>
+<item>
+<title><![CDATA[南极“末日冰川”加速融化]]></title>
+<link><![CDATA[https://www.solidot.org/story?sid=72758]]></link>
+<description><![CDATA[根据发表在《Nature Geoscience》期刊上的<a href="https://www.nature.com/articles/s41561-022-01019-9">一项研究</a>，科学家<a href="https://news.sciencenet.cn/htmlnews/2022/9/486112.shtm">发现</a>南极西部阿蒙森海的思韦茨冰川（也被称为末日冰川）融化的速度比之前认为的要快，可能将导致全球海平面上升 3 米。科学家发现，思韦茨冰川从搁浅带的退缩速度接近每年 2.1 公里，是从 2011—2019 年间卫星图像上观测到的最快退缩速度的两倍。研究人员认为，如果思韦茨和相邻的松岛冰川发生动荡，邻近的几个地区也会四分五裂，导致大范围的崩塌。仅思韦茨冰川就可能导致海平面上升约 3 米。]]></description>
+<pubDate>Wed, 14 Sep 2022 11:31:47 +0800</pubDate>
+</item>
+<item>
+<title><![CDATA[Google 在欧洲面临 250 亿欧元的反垄断罚款]]></title>
+<link><![CDATA[https://www.solidot.org/story?sid=72757]]></link>
+<description><![CDATA[Google 的数字广告业务引发了英国和欧盟的反垄断调查，可能导致其<a href="https://www.bbc.com/news/technology-62891769" target="_blank">面临 250 亿欧元</a>的反垄断罚款。Google 是最大也是最重要的广告技术提供商，市场份额超过九成。欧盟以及英国的监管机构正在调查搜索巨人是否滥用其在数字广告市场的支配地位。去年法国的反垄断监管机构对 Google 开出了 2.2 亿欧元的罚单。Google 在两大问题上面临压力：其一就是反垄断，其二是数据保护。<br>]]></description>
+<pubDate>Wed, 14 Sep 2022 11:20:44 +0800</pubDate>
+</item>
+<item>
+<title><![CDATA[Twitter 投资者批准马斯克的收购交易]]></title>
+<link><![CDATA[https://www.solidot.org/story?sid=72756]]></link>
+<description><![CDATA[Twitter 投资者周二<a href="https://cn.wsj.com/articles/%E4%B8%BE%E6%8A%A5%E4%BA%BA%E5%9C%A8%E5%9B%BD%E4%BC%9A%E4%BD%9C%E8%AF%81%E5%90%8E-twitter%E6%8A%95%E8%B5%84%E8%80%85%E6%8A%95%E7%A5%A8%E6%94%AF%E6%8C%81%E9%A9%AC%E6%96%AF%E5%85%8B%E7%9A%84%E6%94%B6%E8%B4%AD%E4%BA%A4%E6%98%93-11663113305">投票支持</a>亿万富翁马斯克(Elon Musk)现在想退出的以 440 亿美元收购该公司的交易。与此同时，前 Twitter 安全主管 Peiter Zatko 周二在参议院司法委员会上<a href="https://slashdot.org/story/22/09/13/2125209/twitter-whistleblower-peiter-mudge-zatko-testifies-to-congress">作证</a>，指控 Twitter 将利润置于安全之上，为外国特工和黑客的渗透敞开了大门。Zatko 说，Twitter 非常容易被外国情报机构的特工利用，在他被解雇前一周，FBI 警告该公司至少有一名雇员属于外国情报机构。]]></description>
+<pubDate>Wed, 14 Sep 2022 10:34:43 +0800</pubDate>
+</item>
+<item>
+<title><![CDATA[科学家在实验室制造出至今最冷物质]]></title>
+<link><![CDATA[https://www.solidot.org/story?sid=72755]]></link>
+<description><![CDATA[根据发表在《Nature Physics》期刊上的<a href="https://www.nature.com/articles/s41567-022-01725-6">一项研究</a>，日美科学家在实验室内<a href="https://scienceblog.com/533419/lab-material-is-about-3-billion-times-colder-than-deep-space/">制造</a>出至今<a href="https://news.sciencenet.cn/htmlnews/2022/9/486111.shtm" target="_blank">最冷物质</a>。
+在最新研究中，科学家使用激光，限制了 30 万个原子在光学晶格内的运动。该实验模拟了理论物理学家约翰·哈伯德于1963年首次提出的量子物理模型——<a href="https://en.wikipedia.org/wiki/Hubbard_model">哈伯德模型</a>。该模型允许原子展示不寻常的量子特性，包括电子之间的集体行为，如超导（导电而不损失能量）等。研究人员称，他们造出的冷却物质甚至比太空中已知最冷的区域——旋镖星云还要冷，旋镖星云距离地球 3000光年，是围绕在半人马座中一颗垂死恒星周围的一团气体云。科学家们认为，旋镖星云正被星云中心垂死恒星喷出的冷膨胀气体冷却，因此此处的温度比宇宙其他部分还要冷，约为 1 开尔文或零下272摄氏度，仅比绝对零度（零下273.15摄氏度）高1摄氏度。但在最新实验中，镱原子的温度比旋镖星云的温度还要低。]]></description>
+<pubDate>Wed, 14 Sep 2022 00:04:03 +0800</pubDate>
+</item>
+<item>
+<title><![CDATA[《塞尔达传说王国之泪》将于明年五月上市]]></title>
+<link><![CDATA[https://www.solidot.org/story?sid=72754]]></link>
+<description><![CDATA[在 9 月 13 日举行的任天堂直面会上，备受期待的《塞尔达传说旷野之息》的续篇《王国之泪》<a href="https://youtu.be/2SNF4M_v7wc" target="_blank">宣布</a>于 2023 年 5 月 12 日发售。《<a href="https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom">王国之泪</a>》的开发始于 2017 年《旷野之息》完成之后，首部预告片于 2019 年 E3 展会上公布，在 E3 2021 上任天堂宣布游戏将在 2022 年上市，2022 年 3 月游戏宣布延期一年发售。《旷野之息》是任天堂最畅销的游戏之一，至今销量超过 2700 万。]]></description>
+<pubDate>Tue, 13 Sep 2022 23:53:50 +0800</pubDate>
+</item>
+<item>
+<title><![CDATA[今年的大西洋飓风季很安静]]></title>
+<link><![CDATA[https://www.solidot.org/story?sid=72753]]></link>
+<description><![CDATA[过去两年的大西洋飓风季<a href="https://www.solidot.org/story?sid=69098">都非常活跃</a>，但今年的大西洋飓风季却异常的安静。NOAA 等专业机构预测今年从 6 月初到 11 月底的飓风季飓风活动将会高于或与正常水平持平。但至今为止大西洋只出现了 5 个被命名的飓风，低于正常水平，正常情况下大西洋至今应该有 8 个命名的飓风。而根据衡量飓风持续时间和强度的气旋能量指数（Accumulated cyclone energy，简称 ACE），今年的值只有 29.6，不到正常值 60.3 的一半。目前没有任何迹象显示未来两个月飓风的活动会加剧。为什么今年的大西洋<a href="https://arstechnica.com/science/2022/09/this-should-be-the-absolute-peak-of-hurricane-season-but-its-dead-quiet-out-there/">会如此平静</a>？报告认为灰尘可能是原因，大气层中的大量尘埃阻止了飓风的形成。]]></description>
+<pubDate>Tue, 13 Sep 2022 23:34:39 +0800</pubDate>
+</item>
+<item>
+<title><![CDATA[测试显示 Retbleed 补丁造成性能下降高达 70%]]></title>
+<link><![CDATA[https://www.solidot.org/story?sid=72752]]></link>
+<description><![CDATA[<a href="https://en.wikipedia.org/wiki/Retbleed" target="_blank">Retbleed</a> 是最近公布的 CPU 预测执行漏洞攻击，影响 ARM、英特尔和 AMD CPU。Linux 内核最近开始<a href="https://www.solidot.org/story?sid=72476">加入</a>相关的修复补丁。VMware 工程师在 Linux 5.19 上测试了补丁，结果显示<a href="https://www.theregister.com/2022/09/12/retbleed_slugs_vm_performance_by/" target="_blank">它导致了巨大的性能开销</a>。在 ESX 上运行 Linux 虚拟机，使用单个 vCPU 时，计算性能下降最高 70% ，网络性能下降 30%，存储性能下降最高 13%。关闭补丁之后性能恢复到 Linux 5.18 的水平。如此巨大的性能开销会对应用性能产生影响。VMware 工程师是在英特尔 Skylake CPU 上进行的测试，较新的 CPU 解决了大部分相关问题。]]></description>
+<pubDate>Tue, 13 Sep 2022 19:54:00 +0800</pubDate>
+</item>
+</channel>
+</rss>
