@@ -1,13 +1,15 @@
 #!/bin/bash
 
+__dir=$(dirname "$0")
+
 echo > diff.html
 
 GITHUB_USERNAME=Ackeraa
-repos=$(curl https://api.github.com/users/$GITHUB_USERNAME/repos \
+repos=($(curl https://api.github.com/users/$GITHUB_USERNAME/repos \
 	| grep -w clone_url | sed 's/,/\n/g' | gawk '{ print $2 }' \
-	| gawk -F/ '{ print $5 }' | sed 's/"//; s/\.git$//')
+	| gawk -F/ '{ print $5 }' | sed 's/"//; s/\.git$//'))
 
-for repo in ${repos[1, 2]}
+for repo in ${repos[6]}
 do
     commits=$(curl https://api.github.com/repos/$GITHUB_USERNAME/$repo/commits)
     shas=($(echo "$commits" | sed -n 'N; /^  {.*"sha"/p' | gawk '/sha/{print $2}' | sed 's/,//; s/"//g'))
@@ -38,6 +40,7 @@ do
 
     echo "Getting diff from https://github.com/$GITHUB_USERNAME/$repo/compare/$osha...$nsha.diff" 
 
-    curl "https://github.com/$GITHUB_USERNAME/$repo/compare/$osha...$nsha.diff" | ./diff2html.sh >> diff.html
+    echo "<h1>$repo</h1>" >> $__dir/diff.html
+    curl "https://github.com/$GITHUB_USERNAME/$repo/compare/$osha...$nsha.diff" | $__dir/diff2html.sh >> $__dir/diff.html
 
 done

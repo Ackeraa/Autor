@@ -6,7 +6,7 @@
 # Modified by stopyoukid
 #
  
-html=""
+html="<div>"
 first=1
 diffseen=0
 lastonly=0
@@ -110,7 +110,7 @@ done
 if [[ "$currSection" ]]; then
     addDiffToPage $currFile $currSection
 fi
-html+="<br/>"
+html+="</div>"
 echo "$html"
 
 IFS=$OIFS
