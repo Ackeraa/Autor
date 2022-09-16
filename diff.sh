@@ -1,8 +1,10 @@
 #!/bin/bash
 
 __dir=$(dirname "$0")
+difff=$__dir/data/diff.html
+diff2f=$_dir/diff2html.sh
 
-echo > $__dir/data/diff.html
+echo > $difff
 
 GITHUB_USERNAME=Ackeraa
 repos=($(curl https://api.github.com/users/$GITHUB_USERNAME/repos \
@@ -40,6 +42,5 @@ do
 
     echo "Getting diff from https://github.com/$GITHUB_USERNAME/$repo/compare/$osha...$nsha.diff" 
 
-    echo "<h1>$repo</h1>" >> $__dir/data/diff.html
-    curl "https://github.com/$GITHUB_USERNAME/$repo/compare/$osha...$nsha.diff" | $__dir/diff2html.sh >> $__dir/data/diff.html
-done
+    echo "<h1>$repo</h1>" >> $difff
+    curl "https://github.com/$GITHUB_USERNAME/$repo/compare/$osha...$nsha.diff" | $diff2f >> $difff done

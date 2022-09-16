@@ -13,7 +13,7 @@
                 text-align: left;
             }
             h2 {
-                background: white;
+                background: rgb(194, 232, 178);
                 -ms-filter: \"progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa',endColorstr='#eaeaea')\";
                 border: 1px solid #d8d8d8;border-bottom: 0;
                 color: #555;
@@ -24,10 +24,10 @@
                 margin: 0;
             }
             .file-diff {
-                border: 1px solid #d8d8d8;
+                border: 1px solid #6dcde0;
                 margin-bottom: 1em;
                 overflow: auto;
-                padding: 0.5em 0;
+                padding: 0.5em 0.5em;
             }
             .file-diff > div {
                 width: 100%;
@@ -50,14 +50,11 @@
             .info {
                 color: #a0b;
             }
-            .news {
-                border: 1px solid #d8d8d8;
+            .content {
+                border: 2px solid #3e80a1;
                 margin-bottom: 1em;
                 overflow: auto;
-                padding: 0.5em 0;
-            }
-            .news > div {
-                width: 100%;
+                padding: 0.5em 0.5em;
             }
         </style>
     </head>
