@@ -1,11 +1,7 @@
 #!/bin/bash
-
 # Convert diff output to colorized HTML.
-# (C) Mitch Frazier, 2008-08-27
-# http://www.linuxjournal.com/content/convert-diff-output-colorized-html
-# Modified by stopyoukid
-#
- 
+# Forked from https://gist.github.com/stopyoukid/5888146
+
 html="<div>"
 first=1
 diffseen=0

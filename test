@@ -1,0 +1,762 @@
+diff --git a/projects/08/FunctionCalls/SimpleFunction/SimpleFunction.asm b/projects/08/FunctionCalls/SimpleFunction/SimpleFunction.asm
+new file mode 100644
+index 0000000..225dec8
+--- /dev/null
++++ b/projects/08/FunctionCalls/SimpleFunction/SimpleFunction.asm
+@@ -0,0 +1,132 @@
++(SimpleFunction.test)
++@2
++D=A
++@R14
++M=D
++(REPEAT_1)
++@0
++D=A
++@SP
++A=M
++M=D
++@SP
++M=M+1
++@R14
++MD=M-1
++@REPEAT_1
++D;JGT
++@LCL
++D=M
++@0
++A=D+A
++D=M
++@SP
++A=M
++M=D
++@SP
++M=M+1
++@LCL
++D=M
++@1
++A=D+A
++D=M
++@SP
++A=M
++M=D
++@SP
++M=M+1
++@SP
++AM=M-1
++D=M
++@SP
++AM=M-1
++D=D+M
++M=D
++@SP
++M=M+1
++@SP
++AM=M-1
++M=!M
++@SP
++M=M+1
++@ARG
++D=M
++@0
++A=D+A
++D=M
++@SP
++A=M
++M=D
++@SP
++M=M+1
++@SP
++AM=M-1
++D=M
++@SP
++AM=M-1
++D=D+M
++M=D
++@SP
++M=M+1
++@ARG
++D=M
++@1
++A=D+A
++D=M
++@SP
++A=M
++M=D
++@SP
++M=M+1
++@SP
++AM=M-1
++D=M
++@SP
++AM=M-1
++D=M-D
++M=D
++@SP
++M=M+1
++@LCL
++D=M
++@FRAME
++M=D
++@5
++A=D-A
++D=M
++@RET
++M=D
++@SP
++AM=M-1
++D=M
++@ARG
++A=M
++M=D
++@ARG
++D=M
++D=D+1
++@SP
++M=D
++@FRAME
++AM=M-1
++D=M
++@THAT
++M=D
++@FRAME
++AM=M-1
++D=M
++@THIS
++M=D
++@FRAME
++AM=M-1
++D=M
++@ARG
++M=D
++@FRAME
++AM=M-1
++D=M
++@LCL
++M=D
++@RET
++A=M
++0;JMP
+diff --git a/projects/08/FunctionCalls/SimpleFunction/SimpleFunction.out b/projects/08/FunctionCalls/SimpleFunction/SimpleFunction.out
+new file mode 100644
+index 0000000..ef72b7a
+--- /dev/null
++++ b/projects/08/FunctionCalls/SimpleFunction/SimpleFunction.out
+@@ -0,0 +1,2 @@
++| RAM[0] | RAM[1] | RAM[2] | RAM[3] | RAM[4] |RAM[310]|
++|    311 |    305 |    300 |   3010 |   4010 |   1196 |
+diff --git a/projects/08/ProgramFlow/BasicLoop/BasicLoop.asm b/projects/08/ProgramFlow/BasicLoop/BasicLoop.asm
+new file mode 100644
+index 0000000..65940a9
+--- /dev/null
++++ b/projects/08/ProgramFlow/BasicLoop/BasicLoop.asm
+@@ -0,0 +1,124 @@
++@0
++D=A
++@SP
++A=M
++M=D
++@SP
++M=M+1
++@LCL
++D=M
++@0
++D=D+A
++@R13
++M=D
++@SP
++AM=M-1
++D=M
++@R13
++A=M
++M=D
++(LOOP_START)
++@ARG
++D=M
++@0
++A=D+A
++D=M
++@SP
++A=M
++M=D
++@SP
++M=M+1
++@LCL
++D=M
++@0
++A=D+A
++D=M
++@SP
++A=M
++M=D
++@SP
++M=M+1
++@SP
++AM=M-1
++D=M
++@SP
++AM=M-1
++D=D+M
++M=D
++@SP
++M=M+1
++@LCL
++D=M
++@0
++D=D+A
++@R13
++M=D
++@SP
++AM=M-1
++D=M
++@R13
++A=M
++M=D
++@ARG
++D=M
++@0
++A=D+A
++D=M
++@SP
++A=M
++M=D
++@SP
++M=M+1
++@1
++D=A
++@SP
++A=M
++M=D
++@SP
++M=M+1
++@SP
++AM=M-1
++D=M
++@SP
++AM=M-1
++D=M-D
++M=D
++@SP
++M=M+1
++@ARG
++D=M
++@0
++D=D+A
++@R13
++M=D
++@SP
++AM=M-1
++D=M
++@R13
++A=M
++M=D
++@ARG
++D=M
++@0
++A=D+A
++D=M
++@SP
++A=M
++M=D
++@SP
++M=M+1
++@SP
++AM=M-1
++D=M
++@LOOP_START
++D;JNE
++@LCL
++D=M
++@0
++A=D+A
++D=M
++@SP
++A=M
++M=D
++@SP
++M=M+1
+diff --git a/projects/08/ProgramFlow/BasicLoop/BasicLoop.out b/projects/08/ProgramFlow/BasicLoop/BasicLoop.out
+new file mode 100644
+index 0000000..1786c7c
+--- /dev/null
++++ b/projects/08/ProgramFlow/BasicLoop/BasicLoop.out
+@@ -0,0 +1,2 @@
++| RAM[0] |RAM[256]|
++|    257 |      6 |
+diff --git a/projects/08/ProgramFlow/FibonacciSeries/FibonacciSeries.asm b/projects/08/ProgramFlow/FibonacciSeries/FibonacciSeries.asm
+new file mode 100644
+index 0000000..acf5b52
+--- /dev/null
++++ b/projects/08/ProgramFlow/FibonacciSeries/FibonacciSeries.asm
+@@ -0,0 +1,220 @@
++@ARG
++D=M
++@1
++A=D+A
++D=M
++@SP
++A=M
++M=D
++@SP
++M=M+1
++@SP
++AM=M-1
++D=M
++@THAT
++M=D
++@0
++D=A
++@SP
++A=M
++M=D
++@SP
++M=M+1
++@THAT
++D=M
++@0
++D=D+A
++@R13
++M=D
++@SP
++AM=M-1
++D=M
++@R13
++A=M
++M=D
++@1
++D=A
++@SP
++A=M
++M=D
++@SP
++M=M+1
++@THAT
++D=M
++@1
++D=D+A
++@R13
++M=D
++@SP
++AM=M-1
++D=M
++@R13
++A=M
++M=D
++@ARG
++D=M
++@0
++A=D+A
++D=M
++@SP
++A=M
++M=D
++@SP
++M=M+1
++@2
++D=A
++@SP
++A=M
++M=D
++@SP
++M=M+1
++@SP
++AM=M-1
++D=M
++@SP
++AM=M-1
++D=M-D
++M=D
++@SP
++M=M+1
++@ARG
++D=M
++@0
++D=D+A
++@R13
++M=D
++@SP
++AM=M-1
++D=M
++@R13
++A=M
++M=D
++(MAIN_LOOP_START)
++@ARG
++D=M
++@0
++A=D+A
++D=M
++@SP
++A=M
++M=D
++@SP
++M=M+1
++@SP
++AM=M-1
++D=M
++@COMPUTE_ELEMENT
++D;JNE
++@END_PROGRAM
++0;JMP
++(COMPUTE_ELEMENT)
++@THAT
++D=M
++@0
++A=D+A
++D=M
++@SP
++A=M
++M=D
++@SP
++M=M+1
++@THAT
++D=M
++@1
++A=D+A
++D=M
++@SP
++A=M
++M=D
++@SP
++M=M+1
++@SP
++AM=M-1
++D=M
++@SP
++AM=M-1
++D=D+M
++M=D
++@SP
++M=M+1
++@THAT
++D=M
++@2
++D=D+A
++@R13
++M=D
++@SP
++AM=M-1
++D=M
++@R13
++A=M
++M=D
++@THAT
++D=M
++@SP
++A=M
++M=D
++@SP
++M=M+1
++@1
++D=A
++@SP
++A=M
++M=D
++@SP
++M=M+1
++@SP
++AM=M-1
++D=M
++@SP
++AM=M-1
++D=D+M
++M=D
++@SP
++M=M+1
++@SP
++AM=M-1
++D=M
++@THAT
++M=D
++@ARG
++D=M
++@0
++A=D+A
++D=M
++@SP
++A=M
++M=D
++@SP
++M=M+1
++@1
++D=A
++@SP
++A=M
++M=D
++@SP
++M=M+1
++@SP
++AM=M-1
++D=M
++@SP
++AM=M-1
++D=M-D
++M=D
++@SP
++M=M+1
++@ARG
++D=M
++@0
++D=D+A
++@R13
++M=D
++@SP
++AM=M-1
++D=M
++@R13
++A=M
++M=D
++@MAIN_LOOP_START
++0;JMP
++(END_PROGRAM)
+diff --git a/projects/08/ProgramFlow/FibonacciSeries/FibonacciSeries.out b/projects/08/ProgramFlow/FibonacciSeries/FibonacciSeries.out
+new file mode 100644
+index 0000000..304e7c1
+--- /dev/null
++++ b/projects/08/ProgramFlow/FibonacciSeries/FibonacciSeries.out
+@@ -0,0 +1,2 @@
++|RAM[3000]|RAM[3001]|RAM[3002]|RAM[3003]|RAM[3004]|RAM[3005]|
++|      0  |      1  |      1  |      2  |      3  |      5  |
+diff --git a/projects/08/VMTranslater.py b/projects/08/VMTranslater.py
+index 979b373..90ee99f 100644
+--- a/projects/08/VMTranslater.py
++++ b/projects/08/VMTranslater.py
+@@ -6,7 +6,7 @@ class Parser:
+ 
+     def __init__(self):
+         self.lines = []
+-        self.idx = 0
++        self.idx = -1
+ 
+     def read_file(self):
+         self.filename = sys.argv[1]
+@@ -14,24 +14,25 @@ def read_file(self):
+             self.lines = f.readlines()
+ 
+     def has_more(self):
+-        return self.idx < len(self.lines)
++        return self.idx < len(self.lines) - 1
+ 
+     def advance(self):
+         self.idx += 1
+ 
+     def get_type(self):
+-        line = self.lines[self.idx].strip().split("//")[0].strip().split(" ")
+-        n = len(line)
+-        if line == [""]:
++        line = self.lines[self.idx].strip()
++        if line.startswith("//") or len(line) == 0:
+             return None
+-        elif n == 1:
++        line = line.split("//")[0].strip().split(" ")
++        n = len(line)
++        if n == 1:
+             op = line[0]
+             if op == "return":
+-                return Type.RETURN
++                return Type.RETURN, ""
+             elif op in ["add", "sub", "and", "or", "not", "neg", "eq", "gt", "lt"]:
+                 return Type.ARITHMETIC, line[0]
+             else:
+-                raise Exception("Wrong command" + str(line))
++                raise Exception("Wrong command: " + str(line))
+         elif n == 2:
+             op, arg1 = line
+             if op == "label":
+@@ -41,7 +42,7 @@ def get_type(self):
+             elif op == "goto":
+                 return Type.GOTO, arg1
+             else:
+-                raise Exception("Wrong command" + str(line))
++                raise Exception("Wrong command: " + str(line))
+ 
+         elif n == 3:
+             op, arg1, arg2 = line
+@@ -54,14 +55,13 @@ def get_type(self):
+             elif op == "function":
+                 return Type.FUNCTION, arg1, arg2
+             else:
+-                raise Exception("Wrong command" + str(line))
++                raise Exception("Wrong command: " + str(line))
+         else:
+-            raise Exception("Wrong command" + str(line))
++            raise Exception("Wrong command: " + str(line))
+ 
+ class cmdWriter:
+ 
+     def __init__(self):
+-        self.filename = None
+         self.cmds = []
+         self.idx = 0
+         self.push_cmds = [ "D=M", "@SP", "A=M", "M=D", "@SP", "M=M+1" ]
+@@ -69,7 +69,10 @@ def __init__(self):
+         self.latt = {"local": "LCL", "argument": "ARG", "this": "THIS", "that": "THAT"}
+ 
+     def write_file(self):
+-        self.filename = sys.argv[1].split(".")[0] + ".asm"
++        filename = sys.argv[1].split(".")[0] + ".asm"
++        with open(filename, 'w') as f:
++            for cmd in self.cmds:
++                f.write(cmd+ "\n")
+ 
+     def trans(self, line):
+         if line is None:
+@@ -92,7 +95,7 @@ def trans(self, line):
+         elif tp == Type.FUNCTION:
+             cmd = self.trans_function(line)
+         elif tp == Type.RETURN:
+-            cmd = self.trans_return(line)
++            cmd = self.trans_return()
+         else:   # Type.CALL
+             cmd = self.trans_call(line)
+ 
+@@ -242,22 +245,134 @@ def trans_pop(self, line):
+         return cmds
+ 
+     def trans_label(self, line):
+-        pass
++        return ["("+line[0]+")"]
+ 
+     def trans_goto(self, line):
+-        pass
++        cmds = [
++                "@"+line[0],
++                "0;JMP",
++            ]
++
++        return cmds
+ 
+     def trans_if(self, line):
+-        pass
++        cmds = [
++                *self.pop_cmds,
++                "@"+line[0],
++                "D;JNE",
++            ]
++        
++        return cmds
+ 
+     def trans_call(self, line):
+-        pass
++        f, n = line
++        cmds = [
++                "@return-address",
++                "D=A",
++                *self.push_cmds[1:],
++                "@LCL",
++                *self.push_cmds,
++                "@ARG",
++                *self.push_cmds,
++                "@THIS",
++                *self.push_cmds,
++                "@THAT",
++                *self.push_cmds,
++                # ARG = SP-n-5
++                "@SP",
++                "D=A",
++                "@"+n,
++                "D=D-A",
++                "@5",
++                "D=D-A",
++                "@ARG",
++                "M=D",
++                # LCL = SP
++                "@SP",
++                "D=M",
++                "@LCL",
++                "M=D",
++                # goto f
++                "@"+f,
++                "0;JMP",
++                "(return-address)",
++            ]
+ 
+-    def trans_return(self, line):
+-        pass
++        return cmds
++
++    def trans_return(self):
++        cmds = [
++                # FRAME = LCL
++                "@LCL",
++                "D=M",
++                "@FRAME",
++                "M=D",
++                # RET = *(FRAME - 5)
++                "@5",
++                "A=D-A",
++                "D=M",
++                "@RET",
++                "M=D",
++                # *ARG = POP()
++                *self.pop_cmds,
++                "@ARG",
++                "A=M",
++                "M=D",
++                # SP = ARG+1
++                "@ARG",
++                "D=M",
++                "D=D+1",
++                "@SP",
++                "M=D",
++                # THAT = *(FRAME-1)
++                "@FRAME",
++                "AM=M-1",
++                "D=M",
++                "@THAT",
++                "M=D",
++                # THIS = *(FRAME-2)
++                "@FRAME",
++                "AM=M-1",
++                "D=M",
++                "@THIS",
++                "M=D",
++                # ARG = *(FRAME-3)
++                "@FRAME",
++                "AM=M-1",
++                "D=M",
++                "@ARG",
++                "M=D",
++                # LCL = *(FRAME-4)
++                "@FRAME",
++                "AM=M-1",
++                "D=M",
++                "@LCL",
++                "M=D",
++                # goto RET
++                "@RET",
++                "A=M",
++                "0;JMP",
++            ]
++
++        return cmds
+ 
+     def trans_function(self, line):
+-        pass
++        f, k = line
++        cmds = [
++                "("+f+")",
++                "@"+k,
++                "D=A",
++                "@R14",
++                "M=D",
++                f"(REPEAT_{self.idx})",
++                *self.trans_push(["constant", "0"]),
++                "@R14",
++                "MD=M-1",
++                f"@REPEAT_{self.idx}",
++                "D;JGT",
++            ]
++
++        return cmds
+ 
+ if __name__ == "__main__":
+     parser = Parser()
+diff --git a/projects/08/test.asm b/projects/08/test.asm
+new file mode 100644
+index 0000000..b631b13
+--- /dev/null
++++ b/projects/08/test.asm
+@@ -0,0 +1,3 @@
++@RET
++@FRAME
++@FUCK
