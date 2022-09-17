@@ -13,9 +13,8 @@
                 text-align: left;
             }
             h2 {
-                background: rgb(194, 232, 178);
-                -ms-filter: \"progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa',endColorstr='#eaeaea')\";
-                border: 1px solid #d8d8d8;border-bottom: 0;
+                background: white;
+                border: 2px solid #6dcde0;border-bottom: 0;
                 color: #555;
                 font: 14px sans-serif;
                 overflow: hidden;
@@ -51,7 +50,7 @@
                 color: #a0b;
             }
             .content {
-                border: 2px solid #3e80a1;
+                border: 2px solid #6dcde0;
                 margin-bottom: 1em;
                 overflow: auto;
                 padding: 0.5em 0.5em;

@@ -1,5 +1,5 @@
 #!/bin/bash
-# Getting today's code diff.
+# Get today's code diff.
 
 __dir=$(dirname "$0")
 outputf=$__dir/data/diff.html
@@ -31,12 +31,12 @@ do
 		break
 	    fi
 	done
-	if [ $last -ge ${#dates[*]} ] # first day to commit, use first commit to compare
+	if [ $last -eq ${#dates[*]} ] # repo was just created today, use first commit to compare
 	then
 	    last=$[$last - 1]
 	fi
 
-	osha=${shas[1]} 
+	osha=${shas[$last]} 
 	nsha=${shas[0]}
 	echo 'Getting diff from' "https://github.com/$GITHUB_USERNAME/$repo/compare/$osha...$nsha.diff"
 	echo "<h1>$repo</h1>" >> $outputf

@@ -16,21 +16,29 @@ do
 
     content=$(curl $link -H "User-Agent: Mozilla/4.0")
 
-    # Get title
+    # Get rss source
     echo "$content" \
 	| sed -n '/<title>/{p; q}' \
 	| grep -o '<title>.*</title>' \
 	| sed 's/title>/h3>/g' > $newrf
 
-    # Get item
-    echo "$content" \
-	| tr "\n" "|" \
-	| grep -o '<item>.*</item>' \
-	| sed 's/<item/<div class="content"/g; s/\/item>/\/div>/g; s/|/\n/g' \
-	| sed 's/title>/h4>/g' \
-	| sed 's/<link>/<p><a href="/; s/<\/link>/">\&#11208;<\/a><\/p>/' \
-	| sed 's/<\!\[CDATA\[//g; s/\]\]>//g' \
-	| sed 's/pubDate>/p>/g' >> $newrf
+    # Get items
+    items=$(echo "$content" \
+	    | tr "\n" "|" \
+	    | grep -o '<item>.*</item>' \
+	    | sed 's/<item>\|<\/item>//g; s/|/\n/g' \
+	    | sed 's/title>/h2>/g' \
+	    | sed 's/<link>/<p><a href="/; s/<\/link>/">LINK<\/a><\/p>/' \
+	    | sed 's/<\!\[CDATA\[//g; s/\]\]>//g' \
+	    | sed 's/pubDate>/p>/g')
+    IFS=$'\n'
+    titles=($(echo "$items" | sed -n '/h2>/p'))
+    contents=($(echo "$items" | sed '/h2>/d'))
+    for (( i = 0; i < ${#titles[*]}; i++ ))
+    do
+	echo "${titles[$i]}" >> $newrf
+	echo "<div class='content'>${contents[$i]}</div>" >> $newrf
+    done
     cmp --silent  $oldrf $newrf || cat $newrf >> $outputf && mv $newrf $oldrf
     i=$[$i+1]
 done
