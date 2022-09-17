@@ -26,7 +26,7 @@ do
 	| grep -o '<item>.*</item>' \
 	| sed 's/<item/<div class="content"/g; s/\/item>/\/div>/g; s/|/\n/g' \
 	| sed 's/title>/h4>/g' \
-	| sed 's/<link>/<p><a href="/; s/<\/link>/">Link<\/a><\/p>/' \
+	| sed 's/<link>/<p><a href="/; s/<\/link>/">\&#11208;<\/a><\/p>/' \
 	| sed 's/<\!\[CDATA\[//g; s/\]\]>//g' \
 	| sed 's/pubDate>/p>/g' >> $newrf
     cmp --silent  $oldrf $newrf || cat $newrf >> $rssf && mv $newrf $oldrf
