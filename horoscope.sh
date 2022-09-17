@@ -2,12 +2,12 @@
 # Get today's horoscope 
 
 __dir=$(dirname "$0")
-horoscopef=$__dir/data/horoscope.html
+outputf=$__dir/data/horoscope.html
 SIGN=aries
 
-echo '<div class="content"><pre>' > $horoscopef
+echo '<div class="content"><pre>' > $outputf
 curl -X POST \
     "https://aztro.sameerkumar.website/?sign=$SIGN&day=today" \
     | sed 's/, "/\n"/g' | tr -d '"|}|{' \
-    | sed -n '2, $p' >> $horoscopef
-echo '</div></p>' >> $horoscopef
+    | sed -n '2, $p' >> $outputf
+echo '</div></p>' >> $outputf

@@ -2,11 +2,11 @@
 # Getting today's code diff.
 
 __dir=$(dirname "$0")
-difff=$__dir/data/diff.html
+outputf=$__dir/data/diff.html
 diff2f=$__dir/diff2html.sh
 GITHUB_USERNAME=Ackeraa
 
-echo > $difff
+echo > $outputf
 
 repos=($(curl --silent https://api.github.com/users/$GITHUB_USERNAME/repos \
 	| grep -w clone_url | sed 's/,/\n/g' | gawk '{ print $2 }' \
@@ -39,7 +39,7 @@ do
 	osha=${shas[1]} 
 	nsha=${shas[0]}
 	echo 'Getting diff from' "https://github.com/$GITHUB_USERNAME/$repo/compare/$osha...$nsha.diff"
-	echo "<h1>$repo</h1>" >> $difff
-	curl --silent "https://github.com/$GITHUB_USERNAME/$repo/compare/$osha...$nsha.diff" | $diff2f >> $difff 
+	echo "<h1>$repo</h1>" >> $outputf
+	curl --silent "https://github.com/$GITHUB_USERNAME/$repo/compare/$osha...$nsha.diff" | $diff2f >> $outputf 
     fi
 done

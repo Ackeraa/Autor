@@ -1,18 +1,20 @@
 #!/bin/bash
-# Getting rss listed in data/rsslist
+# Getting rss located in path config/ ,
+# which should be specified in the arguments.
 
 __dir=$(dirname "$0")
-rssf=$__dir/data/rss.html
-agent="Mozilla/4.0"
-echo > $rssf
+outputf=$__dir/data/rss.html
+rssf=$__dir/config/$1
+echo > $outputf
 
+rss=$(cat $rssf | tr -d "\n" | grep -o "<rss>.*</rss>" | sed 's/<rss>\|<\/rss>//g' | tr -s ' ')
 i=1
-for link in $(cat $__dir/config/rsslist)
+for link in $rss
 do
     oldrf=$__dir/data/rss$i.html
     newrf=$__dir/data/rss$i\_.html
 
-    content=$(curl $link -H "User-Agent: $agent")
+    content=$(curl $link -H "User-Agent: Mozilla/4.0")
 
     # Get title
     echo "$content" \
@@ -29,6 +31,6 @@ do
 	| sed 's/<link>/<p><a href="/; s/<\/link>/">\&#11208;<\/a><\/p>/' \
 	| sed 's/<\!\[CDATA\[//g; s/\]\]>//g' \
 	| sed 's/pubDate>/p>/g' >> $newrf
-    cmp --silent  $oldrf $newrf || cat $newrf >> $rssf && mv $newrf $oldrf
+    cmp --silent  $oldrf $newrf || cat $newrf >> $outputf && mv $newrf $oldrf
     i=$[$i+1]
 done
