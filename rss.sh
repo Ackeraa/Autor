@@ -4,8 +4,8 @@
 __dir=$(dirname "$0")
 rssf=$__dir/data/rss.html
 agent="Mozilla/4.0"
-
 echo > $rssf
+
 i=1
 for link in $(cat $__dir/config/rsslist)
 do
