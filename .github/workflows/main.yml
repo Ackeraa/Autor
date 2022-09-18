@@ -7,18 +7,18 @@ jobs:
   get_report:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: checkout code
         uses: actions/checkout@v2
         
-      - name: Set morning
+      - name: set morning
         run: |
-          echo "{time}={morning}" >> $GITHUB_ENV
+          echo "time=morning" >> $GITHUB_ENV
         
-      - name: Get report
+      - name: get report
         if: github.event.schedule != '30 5 * * 1,3'
-        run: bash ./reporter.sh ${{ env.time }}
+        run: bash ./reporter.sh $time
         
-      - name: Send email
+      - name: send email
         uses: dawidd6/action-send-mail@master
         with:
           server_address: smtp.163.com
