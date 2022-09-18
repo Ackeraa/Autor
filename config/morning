@@ -1,6 +1,6 @@
 <rss>
-    https://www.solidot.org/index.rss
     https://hnrss.org/newest
+    https://www.solidot.org/index.rss
     https://www.msra.cn/feed
 </rss>
 
@@ -8,4 +8,5 @@
     weather
     horoscope
     pocket
+    rss
 </script>
