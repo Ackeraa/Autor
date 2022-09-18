@@ -1,13 +1,10 @@
 name: 'Get some useful infomation'
 on:
-  push:
-    branches:
-      - main
   schedule:  # UTC+8
     - cron: '0 22 * * *'
     - cron: '0 3 * * *'
     - cron: '0 9 * * *'
-    - cron: '0 15 * * *'
+    - cron: '18 15 * * *'
 jobs:
   get_report:
     runs-on: ubuntu-latest
@@ -30,7 +27,7 @@ jobs:
           echo "time=night" >> $GITHUB_ENV 
 
       - name: set midnight
-        if: github.event.schedule == '0 15 * * *'
+        if: github.event.schedule == '18 15 * * *'
         run: |
           echo "time=midnight" >> $GITHUB_ENV
           
