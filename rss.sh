@@ -20,25 +20,19 @@ do
     echo "$content" \
 	| sed -n '/<title>/{p; q}' \
 	| grep -o '<title>.*</title>' \
-	| sed 's/title>/h3>/g' > $newrf
+	| sed 's/title>/h1>/g' > $newrf
 
-    # Get items
-    items=$(echo "$content" \
-	    | tr "\n" "|" \
-	    | grep -o '<item>.*</item>' \
-	    | sed 's/<item>\|<\/item>//g; s/|/\n/g' \
-	    | sed 's/title>/h2>/g' \
-	    | sed 's/<link>/<p><a href="/; s/<\/link>/">LINK<\/a><\/p>/' \
-	    | sed 's/<\!\[CDATA\[//g; s/\]\]>//g' \
-	    | sed 's/pubDate>/p>/g')
-    IFS=$'\n'
-    titles=($(echo "$items" | sed -n '/h2>/p'))
-    contents=($(echo "$items" | sed '/h2>/d'))
-    for (( i = 0; i < ${#titles[*]}; i++ ))
-    do
-	echo "${titles[$i]}" >> $newrf
-	echo "<div class='content'>${contents[$i]}</div>" >> $newrf
-    done
+    echo '<div class="content">' >> $newrf
+    echo "$content" \
+	| tr "\n" "|" \
+	| grep -o '<item>.*</item>' \
+	| sed 's/<item>\|<\/item>//g; s/|/\n/g' \
+	| sed 's/title>/h2>/g' \
+	| sed 's/<link>/<p><a href="/; s/<\/link>/">LINK<\/a><\/p>/' \
+	| sed 's/<\!\[CDATA\[//g; s/\]\]>//g' \
+	| sed 's/pubDate>/p>/g' >> $newrf
+    echo '</div>' >> $newrf
+
     cmp --silent  $oldrf $newrf || cat $newrf >> $outputf && mv $newrf $oldrf
     i=$[$i+1]
 done

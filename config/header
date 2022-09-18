@@ -12,7 +12,7 @@
                 min-width: 200px;
                 text-align: left;
             }
-            h2 {
+            .title {
                 background: white;
                 border: 2px solid #6dcde0;border-bottom: 0;
                 color: #555;
@@ -22,13 +22,13 @@
                 text-shadow: 0 1px 0 white;
                 margin: 0;
             }
-            .file-diff {
-                border: 1px solid #6dcde0;
+            .content {
+                border: 2px solid #6dcde0;
                 margin-bottom: 1em;
                 overflow: auto;
                 padding: 0.5em 0.5em;
             }
-            .file-diff > div {
+            .content > div {
                 width: 100%;
             }
             pre {
@@ -48,12 +48,6 @@
             }
             .info {
                 color: #a0b;
-            }
-            .content {
-                border: 2px solid #6dcde0;
-                margin-bottom: 1em;
-                overflow: auto;
-                padding: 0.5em 0.5em;
             }
         </style>
     </head>

@@ -18,7 +18,7 @@ IFS=$'\n'
 titles=($(echo "$items" | sed -n '/"given_title"/p' | sed -E 's/"given_title":|",|"//g'))
 urls=($(echo "$items" | sed -n '/"given_url"/p' | sed -E 's/"given_url":|",|"//g'))
 
-echo '<h2>Need To Be Read</h2> <div class="content">' > $outputf
+echo '<div class="title">Need To Be Read</div> <div class="content">' > $outputf
 for (( i = 0; i < ${#titles[*]}; i++ ))
 do
     echo -e "<p><a href='${urls[$i]}'>${titles[$i]}</a></p>" >> $outputf
