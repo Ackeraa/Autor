@@ -1,7 +1,7 @@
 #!/bin/bash
 # Generate report in the morning, noon, night, ..., 
 # which shoule be specified in the arguments
-
+echo "FIUC $ENV"
 __dir=$(dirname "$0")
 outputf=$__dir/data/$1.html
 configf=$__dir/config/$1
