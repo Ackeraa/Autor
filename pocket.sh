@@ -16,10 +16,13 @@ IFS=$'\n'
 titles=($(echo "$items" | sed -n '/"given_title"/p' | sed -E 's/"given_title":|",|"//g'))
 urls=($(echo "$items" | sed -n '/"given_url"/p' | sed -E 's/"given_url":|",|"//g'))
 
-echo '<div class="title">Pocket</div> <div class="content">'
-for (( i = 0; i < ${#titles[*]}; i++ ))
-do
-    echo -e "<p><a href='${urls[$i]}'>${titles[$i]}</a></p>"
-done
+if [ ${#titles[*]} -gt 0 ]
+then
+    echo '<div class="title">Pocket</div> <div class="content">'
+    for (( i = 0; i < ${#titles[*]}; i++ ))
+    do
+	echo -e "<p><a href='${urls[$i]}'>${titles[$i]}</a></p>"
+    done
 
-echo '</div>'
+    echo '</div>'
+fi
