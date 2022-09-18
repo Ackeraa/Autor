@@ -22,6 +22,6 @@ jobs:
           username: ${{secrets.MAIL_USERNAME}}
           password: ${{secrets.MAIL_PASSWORD}}
           subject: Autor
-          body: "asd"
+          body: file://data/morning.html
           to: acker_autor@163.com
           from: Autor
