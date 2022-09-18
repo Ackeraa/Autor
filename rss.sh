@@ -16,12 +16,14 @@ do
 
     content=$(curl $link -H "User-Agent: Mozilla/4.0")
 
+    echo "FUCL $content"
     # Get rss source
     echo "$content" \
 	| sed -n '/<title>/{p; q}' \
 	| grep -o '<title>.*</title>' \
 	| sed 's/title>/h1>/g' > $newrf
 
+    # Get rss content
     echo '<div class="content">' >> $newrf
     echo "$content" \
 	| tr "\n" "|" \
