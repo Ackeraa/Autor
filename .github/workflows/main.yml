@@ -1,8 +1,8 @@
 name: 'GitHub Actions Weather Bot'
 on:
   push:
-  schedule:
-    - cron: '41 12 * * *'
+    branches:
+      - main
 jobs:
   get_report:
     runs-on: ubuntu-latest
