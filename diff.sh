@@ -19,12 +19,7 @@ do
     echo "${shas[*]}"
     if [ $n -gt 0 ]; # I commited today
     then
-	last=$[ $n * 3 - 1 ] # find today's first commit's parent commit
-	if [ $last -eq ${#shas[*]} ];  # just created the repo today
-	then
-	    last=$[ $last - 1 ]
-	fi
-	echo $last
+	last=$[ $n * 3 - 3 ] # find today's first commit's parent commit
 	osha=${shas[$last]} 
 	nsha=${shas[0]}
 	echo "<h1>$repo</h1>"
