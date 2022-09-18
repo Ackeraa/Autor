@@ -1,10 +1,11 @@
 name: 'Get some useful infomation'
 on:
   schedule:  # UTC+8
-    - cron: '20 15 * * *'
+    - cron: '* * * * *'
     - cron: '0 3 * * *'
     - cron: '0 9 * * *'
     - cron: '18 15 * * *'
+
 jobs:
   get_report:
     runs-on: ubuntu-latest
