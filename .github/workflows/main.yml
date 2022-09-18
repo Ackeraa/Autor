@@ -1,8 +1,13 @@
-name: 'GitHub Actions Weather Bot'
+name: 'Get some useful infomation'
 on:
   push:
     branches:
       - main
+  schedule:  # UTC+8
+    - cron: '0 22 * * *'
+    - cron: '0 3 * * *'
+    - cron: '0 9 * * *'
+    - cron: '0 15 * * *'
 jobs:
   get_report:
     runs-on: ubuntu-latest
@@ -11,14 +16,33 @@ jobs:
         uses: actions/checkout@v2
         
       - name: set morning
+        if: github.event.schedule == '0 22 * * *'
         run: |
           echo "time=morning" >> $GITHUB_ENV
-        
+      
+      - name: set noon
+        if: github.event.schedule == '0 3 * * *'
+        run: |
+          echo "time=noon" >> $GITHUB_ENV
+          
+      - name: set night
+        if: github.event.schedule == '0 9 * * *'
+        run: |
+          echo "time=night" >> $GITHUB_ENV
+
+      - name: set midnight
+        if: github.event.schedule == '0 15 * * *'
+        run: |
+          echo "time=midnight" >> $GITHUB_ENV
+          
       - name: get report
-        if: github.event.schedule != '30 5 * * 1,3'
         run: bash ./reporter.sh $time
         env:
-          ENV: "asd"
+          LOCATION: ${{secrets.LOCATION}}
+          GITHUB_USERNAME: ${{secrets.GITHUB_USERNAME}}
+          SIGN: ${{secrets.SIGN}}
+          POCKET_CONSUMER_KEY: ${{secrets.POCKET_CONSUMER_KEY}}
+          POCKET_ACCESS_TOKEN: ${{POCKET_ACCESS_TOKEN}}
           
       - name: send email
         uses: dawidd6/action-send-mail@master
@@ -29,5 +53,5 @@ jobs:
           password: ${{secrets.MAIL_PASSWORD}}
           subject: Autor
           html_body: file://rst.html
-          to: acker_autor@163.com
+          to: ${{secrets.MAIL_USERNAME}}
           from: Autor
