@@ -1,9 +1,6 @@
 #!/bin/bash
 # Get today's read later from pocket
 
-POCKET_CONSUMER_KEY=103832-c81ca11815cdf836e59d45d
-POCKET_ACCESS_TOKEN=a70c9106-7080-5ebc-8d21-eb0fbc
-
 today=$(TZ=UTC-8 date -d "$(date +'%Y-%m-%d') 00:00:00" +%s)
 
 items=$(curl --silent -X POST https://getpocket.com/v3/get \
