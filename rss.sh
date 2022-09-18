@@ -3,7 +3,7 @@
 # which should be specified in the arguments.
 
 rssf=config/$1
-today=$(date +"%Y-%m-%d") 
+today=$(date -d '-1 day') 
 
 rss=$(cat $rssf | tr -d "\n" | grep -o "<rss>.*</rss>" | sed 's/<rss>\|<\/rss>//g' | tr -s ' ')
 i=1
