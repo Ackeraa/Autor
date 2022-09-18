@@ -1,13 +1,10 @@
 <rss>
-    https://hnrss.org/newest
-    https://www.solidot.org/index.rss
-    https://www.msra.cn/feed
+    https://feeds.bbci.co.uk/zhongwen/simp/rss.xml
+    https://www.lesswrong.com/feed.xml?view=curated-rss
 </rss>
 
 <script>
     weather
     horoscope
-    pocket
     rss
-    diff
 </script>

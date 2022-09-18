@@ -1,9 +1,8 @@
 <rss>
-    https://hnrss.org/newest
+    https://mjtsai.com/blog/feed/
+    https://nextdraft.com/feed/
 </rss>
 
 <script>
-    weather
-    horoscope
     rss
 </script>

@@ -1,9 +1,7 @@
 <rss>
-    https://www.solidot.org/index.rss
+    https://hnrss.org/newest
 </rss>
 
 <script>
-    weather
-    horoscope
     rss
 </script>

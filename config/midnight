@@ -1,9 +1,10 @@
 <rss>
     https://www.profgalloway.com/feed/
+    https://nextdraft.com/feed/
 </rss>
 
 <script>
-    weather
-    horoscope
+    pocket
+    diff
     rss
 </script>
