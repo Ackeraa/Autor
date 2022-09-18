@@ -18,7 +18,8 @@ do
     shas=($(echo "$commits" | sed -n 'N; /^  {.*"sha"/p' | gawk '/sha/{print $2}' | sed 's/,//; s/"//g'))
     dates=($(echo "$commits" | sed -n '/"date"/p' | uniq | gawk '{print $2}' | sed 's/"//g'))
 
-    today=$(TZ=UTC-8 date +%Y-%m-%d)
+    today=$(date +%Y-%m-%d)
+    echo "$repo ${dates[0]}"
     if [[ ${dates[0]} = *"$today"* ]] # I commited today
     then # find last day's last commit to compare
 	last=0
