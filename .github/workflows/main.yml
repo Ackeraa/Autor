@@ -27,7 +27,7 @@ jobs:
       - name: set night
         if: github.event.schedule == '0 9 * * *'
         run: |
-          echo "time=night" >> $GITHUB_ENV
+          echo "time=night" >> $GITHUB_ENV 
 
       - name: set midnight
         if: github.event.schedule == '0 15 * * *'
