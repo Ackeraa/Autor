@@ -14,11 +14,10 @@ jobs:
     steps:
       - name: checkout code
         uses: actions/checkout@v2
-        
-      - name: set morning
-        if: github.event.schedule == '0 22 * * *'
+      
+      - name: set morning as default
         run: |
-          echo "time=morning" >> $GITHUB_ENV
+          echo "time=morning" >> $GITHUB_ENV     
       
       - name: set noon
         if: github.event.schedule == '0 3 * * *'
@@ -42,7 +41,7 @@ jobs:
           GITHUB_USERNAME: ${{secrets.GITHUB_USERNAME}}
           SIGN: ${{secrets.SIGN}}
           POCKET_CONSUMER_KEY: ${{secrets.POCKET_CONSUMER_KEY}}
-          POCKET_ACCESS_TOKEN: ${{POCKET_ACCESS_TOKEN}}
+          POCKET_ACCESS_TOKEN: ${{secrets.POCKET_ACCESS_TOKEN}}
           
       - name: send email
         uses: dawidd6/action-send-mail@master
