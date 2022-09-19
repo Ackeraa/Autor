@@ -52,4 +52,4 @@ jobs:
           subject: Autor
           html_body: file://rst.html
           to: ${{secrets.MAIL_USERNAME}}
-          from: Autor $time
+          from: Autor
