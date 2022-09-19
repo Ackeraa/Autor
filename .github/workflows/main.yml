@@ -1,7 +1,7 @@
-name: 'Get some useful infomation'
+name: 'report'
 on:
   schedule: 
-    - cron: '50 * * * *'
+    - cron: '58 4 * * *'
 
 jobs:
   get_report:
