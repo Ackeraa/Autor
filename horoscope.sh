@@ -10,5 +10,5 @@ curl --silent -X POST \
     | sed 's/_/ /g' \
     | sed -r 's/\<./\U&/' \
     | sed 's/;;/<br\/>/g' \
-    | sed 's/Current_date: \|Description: //g'
+    | sed 's/Current date: \|Description: //g'
 echo '</div>'
