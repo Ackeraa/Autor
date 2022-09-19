@@ -1,7 +1,11 @@
 name: 'report'
+
 on:
-  schedule: 
-    - cron: "2 5 * * *"
+  schedule:  # UTC+8
+    - cron: '0 22 * * *'
+    - cron: '0 3 * * *'
+    - cron: '0 9 * * *'
+    - cron: '0 15 * * *'
 
 jobs:
   get_report:
@@ -9,11 +13,26 @@ jobs:
     steps:
       - name: checkout code
         uses: actions/checkout@v2
-      
+
       - name: set morning as default
         run: |
-          echo "time=morning" >> $GITHUB_ENV     
-      
+          echo "time=morning" >> $GITHUB_ENV
+
+      - name: set noon
+        if: github.event.schedule == '0 3 * * *'
+        run: |
+          echo "time=noon" >> $GITHUB_ENV
+
+      - name: set night
+        if: github.event.schedule == '0 9 * * *'
+        run: |
+          echo "time=night" >> $GITHUB_ENV
+
+      - name: set midnight
+        if: github.event.schedule == '0 15 * * *'
+        run: |
+          echo "time=midnight" >> $GITHUB_ENV
+
       - name: get report
         run: bash ./reporter.sh $time
         env:
@@ -22,7 +41,7 @@ jobs:
           SIGN: ${{secrets.SIGN}}
           POCKET_CONSUMER_KEY: ${{secrets.POCKET_CONSUMER_KEY}}
           POCKET_ACCESS_TOKEN: ${{secrets.POCKET_ACCESS_TOKEN}}
-          
+
       - name: send email
         uses: dawidd6/action-send-mail@master
         with:
@@ -33,4 +52,4 @@ jobs:
           subject: Autor
           html_body: file://rst.html
           to: ${{secrets.MAIL_USERNAME}}
-          from: Autor
+          from: Autor $time
