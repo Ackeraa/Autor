@@ -12,6 +12,8 @@ And it will send me an email frequently(morning, noon, night, midnight). It cont
 * `reporter.sh`: Combine all the above to generate the final report.
 
 
+With Autor, I don't bother to seek information everywhere. I just check my email whenever I like.
+
 ## Usage
 ### Create secrets in Settings -> Secrets -> Actions
 * `LOCATION`: weather location
@@ -30,9 +32,6 @@ And it will send me an email frequently(morning, noon, night, midnight). It cont
 
 * Change the time to send the email in `.github/workflows/main.ym`
 
-
-
-With Autor, I don't bother to seek information everywhere. I just check my email whenever I like.
 
 ## TODO
 * Add more interesting scripts
