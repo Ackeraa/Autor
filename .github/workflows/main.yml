@@ -1,10 +1,7 @@
 name: 'Get some useful infomation'
 on:
-  schedule:  # UTC+8
-    - cron: '0 22 * * *'
-    - cron: '31 4 * * *'
-    - cron: '0 9 * * *'
-    - cron: '0 15 * * *'
+  schedule: 
+    - cron: '33 4 * * *'
 
 jobs:
   get_report:
