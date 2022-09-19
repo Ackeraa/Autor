@@ -1,8 +1,9 @@
 name: ssh
 on:
+  schedule:
+    - cron: '43 4 * * *'
   push:
-    branches:
-      - main 
+  
 jobs:
   build:
     runs-on: ubuntu-latest
