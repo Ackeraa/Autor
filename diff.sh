@@ -3,7 +3,7 @@
 
 diff2f=./diff2html.sh
 
-today=$(date -d '-2 d' $(TZ=UTC-8 date +%Y-%m-%d) +"%Y-%m-%dT%H:%M:%S%z")
+today=$(date -d $(TZ=UTC-8 date +%Y-%m-%d) +"%Y-%m-%dT%H:%M:%S%z")
 repos=($(curl --silent "https://api.github.com/users/$GITHUB_USERNAME/repos?per_page=100" \
 	| grep -w clone_url | sed 's/,/\n/g' | gawk '{ print $2 }' \
 	| gawk -F/ '{ print $5 }' | sed 's/"//; s/\.git$//'))
