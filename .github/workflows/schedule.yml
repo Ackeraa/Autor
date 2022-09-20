@@ -1,12 +1,11 @@
-name: 'report'
+name: 'schedule report'
 
 on:
   schedule:  # UTC+8
-    - cron: '0 22 * * *'
-    - cron: '0 3 * * *'
-    - cron: '0 9 * * *'
-    - cron: '0 15 * * *'
-    - cron: '51 6 * * *'
+    - cron: '0 20 * * *'
+    - cron: '0 1 * * *'
+    - cron: '0 7 * * *'
+    - cron: '0 13 * * *'
 
 jobs:
   get_report:
@@ -15,42 +14,43 @@ jobs:
       - name: checkout code
         uses: actions/checkout@v2
 
-      - name: set morning as default
+      - name: set morning
+        if: github.event.schedule == '0 20 * * *'
         run: |
           echo "time=morning" >> $GITHUB_ENV
 
       - name: set noon
-        if: github.event.schedule == '0 3 * * *'
+        if: github.event.schedule == '0 1 * * *'
         run: |
           echo "time=noon" >> $GITHUB_ENV
 
       - name: set night
-        if: github.event.schedule == '0 9 * * *'
+        if: github.event.schedule == '0 7 * * *'
         run: |
           echo "time=night" >> $GITHUB_ENV
 
       - name: set midnight
-        if: github.event.schedule == '0 15 * * *'
+        if: github.event.schedule == '0 13 * * *'
         run: |
           echo "time=midnight" >> $GITHUB_ENV
 
       - name: get report
         run: bash ./reporter.sh $time
         env:
-          LOCATION: ${{secrets.LOCATION}}
-          GITHUB_USERNAME: ${{secrets.GITHUB_USERNAME}}
-          SIGN: ${{secrets.SIGN}}
-          POCKET_CONSUMER_KEY: ${{secrets.POCKET_CONSUMER_KEY}}
-          POCKET_ACCESS_TOKEN: ${{secrets.POCKET_ACCESS_TOKEN}}
+          LOCATION: ${{ secrets.LOCATION }}
+          GITHUB_USERNAME: ${{ secrets.GITHUB_USERNAME }}
+          SIGN: ${{ secrets.SIGN }}
+          POCKET_CONSUMER_KEY: ${{ secrets.POCKET_CONSUMER_KEY }}
+          POCKET_ACCESS_TOKEN: ${{ secrets.POCKET_ACCESS_TOKEN }}
 
       - name: send email
         uses: dawidd6/action-send-mail@master
         with:
           server_address: smtp.163.com
           server_port: 465
-          username: ${{secrets.MAIL_USERNAME}}
-          password: ${{secrets.MAIL_PASSWORD}}
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
           subject: Autor
           html_body: file://rst.html
-          to: ${{secrets.MAIL_USERNAME}}
+          to: ${{ secrets.MAIL_USERNAME }}
           from: Autor
