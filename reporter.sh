@@ -20,9 +20,9 @@ for script in $scripts
 do
     if [ $script == 'rss' ]
     then
-	./$script.sh $rss >> $outputf
+        ./$script.sh $rss >> $outputf
     else
-	./$script.sh >> $outputf
+        ./$script.sh >> $outputf
     fi
 done
 
