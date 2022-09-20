@@ -7,7 +7,7 @@ today=$(date -d '-1 day')
 i=1
 for rss in "$@"
 do
-    xml=$(curl --silent $rss -H "User-Agent: Mozilla/4.0")
+    xml=$(curl --silent "$rss" -H "User-Agent: Mozilla/4.0")
     is_update=0
 
     IFS=$'\n'
