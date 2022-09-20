@@ -38,7 +38,7 @@ jobs:
         run: bash ./reporter.sh $time
         env:
           LOCATION: ${{ secrets.LOCATION }}
-          GITHUB_USERNAME: ${{ secrets.GITHUB_USERNAME }}
+          GITHUB_USERNAME: ${{ secrets.GITHAB_USERNAME }}
           SIGN: ${{ secrets.SIGN }}
           POCKET_CONSUMER_KEY: ${{ secrets.POCKET_CONSUMER_KEY }}
           POCKET_ACCESS_TOKEN: ${{ secrets.POCKET_ACCESS_TOKEN }}
