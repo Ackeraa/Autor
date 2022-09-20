@@ -14,6 +14,7 @@ do
     	| sed -n '/"sha"/p' \
 	| gawk '/sha/{print $2}' \
 	| sed 's/,\|"//g'))
+    echo "$shas"
 
     if [ ${#shas[*]} -gt 0 ]; # I commited today
     then
