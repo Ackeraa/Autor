@@ -8,7 +8,7 @@ And it will send me an email frequently(morning, noon, night, midnight). It cont
 * `horoscope.sh`: Get today's horoscope.
 * `pocket.sh`: Get today's read-later list from [Pocket](https://getpocket.com).
 * `rss.sh`: Get the RSS feed specified in `config/`.
-* `weather.sh`: Get today's weather from https://wttr.in.
+* `weather.sh`: Get today's weather from [wttr](https://wttr.in).
 * `reporter.sh`: Combine all the above to generate the final report.
 
 
@@ -16,7 +16,7 @@ With Autor, I don't bother to seek information everywhere. I just check my email
 
 ## Usage
 ### Create secrets in Settings -> Secrets -> Actions
-* `GITH**A**B_USERNAME`: github username
+* `GITHAB_USERNAME`: github username
 * `LOCATION`: weather location
 * `MAIL_USERNAME`: email user name
 * `MAIL_PASSWORD`: email password
@@ -31,16 +31,10 @@ With Autor, I don't bother to seek information everywhere. I just check my email
 
 ### Custom `.yml` file
 
-**Option 1: Use `schedule` to trigger the workflow**
-
-Change the time to send the email in `.github/workflows/schedule.yml`, but it always has a delay.
-
-**Option 2: Use `workflow_dispatch` to trigger the workflow**
-
-Use Github REST API, follow this [link](https://docs.github.com/en/rest/actions/workflows#create-a-workflow-dispatch-event)
+* Option 1: Use `schedule` to trigger the workflow. Change the time to send the email in `.github/workflows/schedule.yml`, but it always has a delay.
 
 
-I use this one, just create 4 automatic jobs using iphone shortcut, and send an api request at sepcific time.
+* Option 2: Use `workflow_dispatch` to trigger the workflow. Use Github REST API, follow this [link](https://docs.github.com/en/rest/actions/workflows#create-a-workflow-dispatch-event). I use this one, just create 4 automatic jobs using iphone shortcut, and send an api request at sepcific time.
 
 ## TODO
 * Add a blacklist of repo that I don't want to track
