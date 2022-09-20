@@ -2,14 +2,12 @@
 # Getting rss located in path config/ ,
 # which should be specified in the arguments.
 
-rssf=config/$1
 today=$(date -d '-1 day') 
 
-rss=$(cat $rssf | tr -d "\n" | grep -o "<rss>.*</rss>" | sed 's/<rss>\|<\/rss>//g' | tr -s ' ')
 i=1
-for link in "$rss"
+for rss in "$@"
 do
-    xml=$(curl --silent $link -H "User-Agent: Mozilla/4.0")
+    xml=$(curl --silent $rss -H "User-Agent: Mozilla/4.0")
     is_update=0
 
     IFS=$'\n'

@@ -1,6 +1,7 @@
 name: 'schedule report'
 
 on:
+  push:
   schedule:  # UTC+8
     - cron: '0 20 * * *'
     - cron: '0 1 * * *'
@@ -14,8 +15,7 @@ jobs:
       - name: checkout code
         uses: actions/checkout@v2
 
-      - name: set morning
-        if: github.event.schedule == '0 20 * * *'
+      - name: set morning as default
         run: |
           echo "time=morning" >> $GITHUB_ENV
 

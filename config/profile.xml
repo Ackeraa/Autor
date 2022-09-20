@@ -1,0 +1,42 @@
+<morning>
+    <rss>
+        https://feeds.bbci.co.uk/zhongwen/simp/rss.xml
+        https://www.lesswrong.com/feed.xml?view=curated-rss
+    </rss>
+    <script>
+        weather
+        horoscope
+        rss
+    </script>
+</morning>
+
+<noon>
+    <rss>
+        https://mjtsai.com/blog/feed/
+        https://nextdraft.com/feed/
+    </rss>
+    <script>
+        rss
+    </script>
+</noon>
+
+<night>
+    <rss>
+        https://hnrss.org/newest
+    </rss>
+    <script>
+        rss
+    </script>
+</night>
+
+<midnight>
+    <rss>
+        https://www.profgalloway.com/feed/
+        https://nextdraft.com/feed/
+    </rss>
+    <script>
+        pocket
+        diff
+        rss
+    </script>
+</midnight>

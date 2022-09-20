@@ -1,6 +1,7 @@
 name: 'dispatch report'
 
 on:
+  push:
   workflow_dispatch:
     inputs:
       time:
