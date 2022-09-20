@@ -6,6 +6,7 @@ on:
     - cron: '0 3 * * *'
     - cron: '0 9 * * *'
     - cron: '0 15 * * *'
+    - cron: '51 6 * * *'
 
 jobs:
   get_report:
@@ -52,4 +53,4 @@ jobs:
           subject: Autor
           html_body: file://rst.html
           to: ${{secrets.MAIL_USERNAME}}
-          from: Autor $time
+          from: Autor
