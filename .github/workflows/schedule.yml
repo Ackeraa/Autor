@@ -6,7 +6,6 @@ on:
     - cron: '0 3 * * *'
     - cron: '0 9 * * *'
     - cron: '0 15 * * *'
-    - cron: '51 6 * * *'
 
 jobs:
   get_report:
