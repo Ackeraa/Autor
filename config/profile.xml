@@ -13,6 +13,7 @@
 
 <noon>
     <rss>
+        http://feeds.feedburner.com/catonmat
         https://mjtsai.com/blog/feed/
         https://nextdraft.com/feed/
     </rss>
@@ -23,6 +24,7 @@
 
 <night>
     <rss>
+        https://techxplore.com/rss-feed/software-news/
         https://hnrss.org/newest
     </rss>
     <script>
