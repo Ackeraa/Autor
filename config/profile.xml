@@ -7,6 +7,7 @@
     <script>
         weather
         horoscope
+	wordnik
         rss
     </script>
 </morning>
@@ -18,6 +19,7 @@
         https://nextdraft.com/feed/
     </rss>
     <script>
+	wordnik
         rss
     </script>
 </noon>
@@ -28,6 +30,7 @@
         https://hnrss.org/newest
     </rss>
     <script>
+	wordnik
         rss
     </script>
 </night>
@@ -38,6 +41,7 @@
         https://nextdraft.com/feed/
     </rss>
     <script>
+	wordnik
         pocket
         diff
         rss
