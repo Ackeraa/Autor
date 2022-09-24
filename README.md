@@ -9,6 +9,7 @@ And it will send me an email frequently(morning, noon, night, midnight). It cont
 * `pocket.sh`: Get today's read-later list from [Pocket](https://getpocket.com).
 * `rss.sh`: Get the RSS feed specified in `config/`.
 * `weather.sh`: Get today's weather from [wttr](https://wttr.in).
+* `wordnik.sh`: Get word of the day from [wordnik](https://wordnik.com).
 * `reporter.sh`: Combine all the above to generate the final report.
 
 
@@ -22,6 +23,7 @@ With Autor, I don't bother to seek information everywhere. I just check my email
 * `MAIL_PASSWORD`: email password
 * `POCKET_CONSUMER_KEY`: used for Pocket 
 * `POCKET_ACCESS_TOKEN`: used for Pocket
+* `WORDNIK_KEY`: used for Wordink
 * `SIGN`: sign
 
 
