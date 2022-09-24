@@ -23,7 +23,7 @@ With Autor, I don't bother to seek information everywhere. I just check my email
 * `MAIL_PASSWORD`: email password
 * `POCKET_CONSUMER_KEY`: used for Pocket 
 * `POCKET_ACCESS_TOKEN`: used for Pocket
-* `WORDNIK_KEY`: used for Wordink
+* `WORDNIK_KEY`: used for Wordnik
 * `SIGN`: sign
 
 
