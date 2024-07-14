@@ -47,3 +47,14 @@
         rss
     </script>
 </midnight>
+
+<test>
+    <rss>
+	https://go.dev/blog/feed.atom
+	https://github.com/trending
+    </rss>
+    <script>
+        rss
+    </script>
+</test>
+
