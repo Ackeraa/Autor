@@ -50,8 +50,7 @@
 
 <test>
     <rss>
-	https://go.dev/blog/feed.atom
-	https://github.com/trending
+	go.dev/blog/feed.atom
     </rss>
     <script>
         rss
