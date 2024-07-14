@@ -28,6 +28,7 @@
     <rss>
         https://techxplore.com/rss-feed/software-news/
         https://hnrss.org/newest
+	https://hackaday.com/blog/feed/
     </rss>
     <script>
 	wordnik
@@ -50,7 +51,7 @@
 
 <test>
     <rss>
-	https://hackaday.com/blog/feed/
+	https://www.escapistmagazine.com/v2/feed/
     </rss>
     <script>
         rss
