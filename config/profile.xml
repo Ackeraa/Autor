@@ -50,7 +50,8 @@
 
 <test>
     <rss>
-	go.dev/blog/feed.atom
+	https://www.profgalloway.com/feed/
+        https://nextdraft.com/feed/
     </rss>
     <script>
         rss
