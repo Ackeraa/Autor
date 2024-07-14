@@ -37,13 +37,9 @@
 
 <midnight>
     <rss>
-        https://www.profgalloway.com/feed/
-        https://nextdraft.com/feed/
+	go.dev/blog/feed.atom
     </rss>
     <script>
-	wordnik
-        pocket
-        diff
         rss
     </script>
 </midnight>
@@ -54,8 +50,10 @@
         https://nextdraft.com/feed/
     </rss>
     <script>
+	wordnik
+        pocket
+        diff
         rss
-	pocket
     </script>
 </test>
 
