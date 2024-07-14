@@ -50,12 +50,9 @@
 
 <test>
     <rss>
-	https://www.huffpost.com/section/world-news/feed
+	https://hackaday.com/blog/feed/
     </rss>
     <script>
-	wordnik
-        pocket
-        diff
         rss
     </script>
 </test>
