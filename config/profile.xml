@@ -50,7 +50,7 @@
 
 <test>
     <rss>
-	http://feeds.feedburner.com/catonmat
+	https://www.huffpost.com/section/world-news/feed
     </rss>
     <script>
 	wordnik
