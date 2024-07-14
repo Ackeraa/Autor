@@ -37,17 +37,20 @@
 
 <midnight>
     <rss>
-	go.dev/blog/feed.atom
+	https://www.profgalloway.com/feed/
+        https://nextdraft.com/feed/
     </rss>
     <script>
+        wordnik
+        pocket
+        diff
         rss
     </script>
 </midnight>
 
 <test>
     <rss>
-	https://www.profgalloway.com/feed/
-        https://nextdraft.com/feed/
+	http://feeds.feedburner.com/catonmat
     </rss>
     <script>
 	wordnik
